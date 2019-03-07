@@ -25,6 +25,11 @@ while win:
         print("computer choose " , cpu)
         print("It is a draw")
       
+    
+    elif user != ("fox") or ("hunter")or ("lord"):
+        print("not valid, try again !!")
+        continue 
+        
     else:
         print("computer choose " , cpu)
         print("You lose")
