@@ -28,7 +28,7 @@ def dice():
             total-=bet 
         else: 
            print ( "You win") 
-           total+=bet*2 
+           total+=bet*3 
 
         if total<=0:
             print("Go home you have no more gold left ")
