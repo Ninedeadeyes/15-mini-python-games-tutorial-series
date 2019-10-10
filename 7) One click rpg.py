@@ -14,7 +14,7 @@ class Application(Frame):
         self.lexp=0
         self.level=0
         self.area=["Forest of the Chaos Harlequins ","Forgotten Graveyard of Endal","Castle of the Blackest Knight","Haunted Farm of Yondor","Deathtrap Dungeon of Borgon"," Mysterious Swampland of Kuluth",
-         "Swamp of the Slimy Hobbits", "Darkest Dungeons", "Ruins of the Fallen Gods", "Forlorn Islands of Lost Souls","Hidden Hideout of Ninedeadeyes", "Wildlands of Lady L Moore"," Woods of Ypres","Heart of Darkness
+         "Swamp of the Slimy Hobbits", "Darkest Dungeons", "Ruins of the Fallen Gods", "Forlorn Islands of Lost Souls","Hidden Hideout of Ninedeadeyes", "Wildlands of Lady L Moore"," Woods of Ypres","Heart of Darkness"
          ,"Doomville", "The Red Jester's Torture Chamber","The Goblins Fortress of Snikrik,"," Temple of Apshai"," Dungeons of Doom", "Mountains of the Wild Berserker","Stronghold of Daggerfall","Walking Hills of Cthulhu" ]
 
         self.monster=["orcs","goblins","dragons","demons","kobolds","blobs","hobbits","zombies","gnomes","vampires","beholders","trolls","hill giants","ettins","mimics",
