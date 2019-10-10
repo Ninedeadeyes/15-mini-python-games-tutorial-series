@@ -13,13 +13,14 @@ class Application(Frame):
         self.exp=0
         self.lexp=0
         self.level=0
-        self.area=["Forest of Doom","Forgotten Graveyard of Endal","Castle of the Black Knight","Haunted Farm of Yondor","Deathtrap Dungeon of Bogo"," Mysterious Swampland of Kuluth",
-         "Swamp of the Slimy Hobbits", "Darkest Dungeons", "Ruins of the Fallen Gods", "Forlorn Islands of Lost Souls"," Ninedeadeye's Hidden Hideout", "Wildlands of Lady L Moore"," Woods of Ypres" ]
+        self.area=["Forest of the Chaos Harlequins ","Forgotten Graveyard of Endal","Castle of the Blackest Knight","Haunted Farm of Yondor","Deathtrap Dungeon of Borgon"," Mysterious Swampland of Kuluth",
+         "Swamp of the Slimy Hobbits", "Darkest Dungeons", "Ruins of the Fallen Gods", "Forlorn Islands of Lost Souls","Hidden Hideout of Ninedeadeyes", "Wildlands of Lady L Moore"," Woods of Ypres","Heart of Darkness
+         ,"Doomville", "The Red Jester's Torture Chamber","The Goblins Fortress of Snikrik,"," Temple of Apshai"," Dungeons of Doom", "Mountains of the Wild Berserker","Stronghold of Daggerfall","Walking Hills of Cthulhu" ]
 
         self.monster=["orcs","goblins","dragons","demons","kobolds","blobs","hobbits","zombies","gnomes","vampires","beholders","trolls","hill giants","ettins","mimics",
-                      "succubuses","bone devils","clay golems","drows","gnolls","swamp hags"," night goblins","half-ogres","hobgoblins","bog imps","owlbears","ponies","winter wolves"]
+                      "succubuses","bone devils","clay golems","drows","gnolls","swamp hags"," night goblins","half-ogres","hobgoblins","bog imps","owlbears","ponies","winter wolves","harlequin","abomination"]
         
-        self.description=["stupid","horny","heart broken","deranged","morbid","tiny","suicidal","sexy","skinny","racist","peaceful","silly","drunk","sadistic","young",
+        self.description=["stupid","horny","heart broken","deranged","morbid","tiny","suicidal","sexy","skinny","racist","peaceful","silly","drunk","sadistic","young", "shy","talkative",
                           "lovestruck","sarcastic","homophobic","forelorn","happy","friendly","psychopathic","optimistic","mysterious","beautiful","malnourish","zealous","hot-headed"]
 
         self.power_ranking=("The Village Punchbag (It's a job, i guess )")
@@ -27,7 +28,7 @@ class Application(Frame):
     def create_widgets(self):
 
         self.bttn= Button(self)
-        self.bttn["text"]="explore"
+        self.bttn["text"]="Explore"
         self.bttn["command"]= self.adventure
         self.bttn.grid(row=0,column=0,columnspan=1,sticky=W)
         
@@ -66,34 +67,34 @@ class Application(Frame):
             self.level+=1
             self.lexp=0
 
-        if self.level >2 and self.level <5:
+        if self.level >2 and self.level <4:
             self.power_ranking="The Cannon Fodder (Ready to die ? ) "  
 
-        if self.level >5 and self.level  <7:
+        if self.level >4 and self.level  <6:
             self.power_ranking="The Weakling Avenger (At least your tried )"
 
-        if self.level >7 and self.level  <10:
+        if self.level >6 and self.level  <8:
             self.power_ranking="The Nice Guy (This is no compliment )"
 
-        if self.level >10 and self.level  <12:
-            self.power_ranking="The Beta Warrior (At least you don't die first )"
+        if self.level >8 and self.level  <10:
+            self.power_ranking="The Beta Warrior (At least you won't die first )"
 
-        if self.level >12 and self.level  <14:
+        if self.level >10 and self.level  <12:
             self.power_ranking="The Mighty Beta Warrior (Some nerds respect you )"
 
-        if self.level >14 and self.level  <16:
+        if self.level >12 and self.level  <14:
             self.power_ranking="The Average Chump (Nothing to see here ) "
 
-        if self.level >16 and self.level  <18:
+        if self.level >14 and self.level  <16:
             self.power_ranking="The Man with a Stick (Fear my wood )  "
 
-        if self.level >18 and self.level  <20:
+        if self.level >16 and self.level  <18:
             self.power_ranking="The Man with a Big Stick (MORE WOOD )"
 
-        if self.level >20 and self.level  <22:
+        if self.level >18 and self.level  <20:
             self.power_ranking="The Town's Guard (Obey my authority ) "
 
-        if self.level >22 and self.level  <24:
+        if self.level >20 and self.level  <24:
             self.power_ranking="The Try-Hard Hero (You win some, you lose more )"
 
         if self.level >24 and self.level  <26:
