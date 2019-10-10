@@ -1,5 +1,5 @@
 # 7-mini-games
-6 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.  
+7 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.  
 
 1) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. 
 
@@ -13,4 +13,4 @@
 
 6) The Haunted House= A mini adventure game. Your main goal is to escape the house with the loot.
 
-7) One Click RPG= An Idle RPG using Tkinter library  
+7) One Click RPG= An Idle RPG using Tkinter GUI library  
