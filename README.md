@@ -13,4 +13,4 @@
 
 6) The Haunted House= A mini adventure game. Your main goal is to escape the house with the loot. ( USING DICTIONARY DATA TYPE ) 
 
-7) One Click RPG= An Idle RPG using Tkinter GUI library  ( USING TUPLES AND TKINTER GUI LIBRARY ) 
+7) One Click RPG= An Idle RPG using Tkinter GUI library  ( USING TUPLES DATA TYPE AND TKINTER GUI LIBRARY ) 
