@@ -1,5 +1,4 @@
 from tkinter import*
-from tkinter import ttk
 import random
 
 
@@ -13,15 +12,15 @@ class Application(Frame):
         self.exp=0
         self.lexp=0
         self.level=0
-        self.area=["Forest of the Chaos Harlequins ","Forgotten Graveyard of Endal","Castle of the Blackest Knight","Haunted Farm of Yondor","Deathtrap Dungeon of Borgon"," Mysterious Swampland of Kuluth",
+        self.area=("Forest of the Chaos Harlequins ","Forgotten Graveyard of Endal","Castle of the Blackest Knight","Haunted Farm of Yondor","Deathtrap Dungeon of Borgon"," Mysterious Swampland of Kuluth",
          "Swamp of the Slimy Hobbits", "Darkest Dungeons", "Ruins of the Fallen Gods", "Forlorn Islands of Lost Souls","Hidden Hideout of Ninedeadeyes", "Wildlands of Lady L Moore"," Woods of Ypres","Heart of Darkness"
-         ,"Doomville", "The Red Jester's Torture Chamber","The Goblins Fortress of Snikrik,"," Temple of Apshai"," Dungeons of Doom", "Mountains of the Wild Berserker","Stronghold of Daggerfall","Walking Hills of Cthulhu" ]
+         ,"Doomville", "The Red Jester's Torture Chamber","The Goblins Fortress of Snikrik,"," Temple of Apshai"," Dungeons of Doom", "Mountains of the Wild Berserker","Stronghold of Daggerfall","Walking Hills of Cthulhu" )
 
-        self.monster=["orcs","goblins","dragons","demons","kobolds","blobs","hobbits","zombies","gnomes","vampires","beholders","trolls","hill giants","ettins","mimics",
-                      "succubuses","bone devils","clay golems","drows","gnolls","swamp hags"," night goblins","half-ogres","hobgoblins","bog imps","owlbears","ponies","winter wolves","harlequin","abomination"]
+        self.monster=("orcs","goblins","dragons","demons","kobolds","blobs","hobbits","zombies","gnomes","vampires","beholders","trolls","hill giants","ettins","mimics",
+                      "succubuses","bone devils","clay golems","drows","gnolls","swamp hags"," night goblins","half-ogres","hobgoblins","bog imps","owlbears","ponies","winter wolves","harlequin","abomination")
         
-        self.description=["stupid","horny","heart broken","deranged","morbid","tiny","suicidal","sexy","skinny","racist","peaceful","silly","drunk","sadistic","young", "shy","talkative",
-                          "lovestruck","sarcastic","homophobic","forelorn","happy","friendly","psychopathic","optimistic","mysterious","beautiful","malnourish","zealous","hot-headed"]
+        self.description=("stupid","horny","heart broken","deranged","morbid","tiny","suicidal","sexy","skinny","racist","peaceful","silly","drunk","sadistic","young", "shy","talkative",
+                          "lovestruck","sarcastic","homophobic","forelorn","happy","friendly","psychopathic","optimistic","mysterious","beautiful","malnourish","zealous","hot-headed")
 
         self.power_ranking=("The Village Punchbag (It's a job, i guess )")
         
@@ -71,7 +70,7 @@ class Application(Frame):
             self.power_ranking="The Cannon Fodder (Ready to die ? ) "  
 
         if self.level >4 and self.level  <6:
-            self.power_ranking="The Weakling Avenger (At least your tried )"
+            self.power_ranking="The Weakling Avenger (At least you tried )"
 
         if self.level >6 and self.level  <8:
             self.power_ranking="The Nice Guy (This is no compliment )"
