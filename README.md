@@ -1,5 +1,5 @@
 # 8-mini-games
-7 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.  
+8 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.  
 
 1) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his.  ( USING FUNCTION )
 
