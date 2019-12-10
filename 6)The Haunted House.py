@@ -69,6 +69,8 @@ rooms = {
               },        
          }
 
+# Nested Dictionary 
+
 currentRoom = 'Hall'
 
 showInstructions()
@@ -87,7 +89,7 @@ while True:
       if "monster"in rooms[currentRoom] and move[1] in rooms[currentRoom]['monster'] and "shotgun" in inventory :
           del rooms[currentRoom]['monster']
           print( "you killed the", move[1])
-          rooms[currentRoom].update({"monster":"dead"},)
+          rooms[currentRoom].update({"monster":"dead"},)  #update merge dictionary with an iterable of key value pair
         
       else:
           print("you cannot attack " )
@@ -121,7 +123,7 @@ while True:
     
   if move[0] == 'go':
       if move[1] in rooms[currentRoom]:
-          currentRoom = rooms[currentRoom][move[1]]
+          currentRoom = rooms[currentRoom][move[1]]    # acquire the new room (the value) from the 'direction'(the key) 
       
       else:
           print('You can\'t go that way!')
