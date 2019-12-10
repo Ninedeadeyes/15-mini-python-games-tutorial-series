@@ -11,7 +11,7 @@
 
 5) Dungeon Hack  = an Adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run.   ( USING IF LOOP AND LIST DATA TYPE ) 
 
-6) The Haunted House= A mini adventure game. Your main goal is to escape the house with the loot. ( USING DICTIONARY DATA TYPE ) 
+6) The Haunted House= A mini adventure game. Your main goal is to escape the house with the loot. ( USING DICTIONARY DATA TYPE) 
 
 7) One Click RPG= An Idle RPG using Tkinter GUI library  ( USING TUPLES DATA TYPE AND TKINTER GUI LIBRARY ) 
 
