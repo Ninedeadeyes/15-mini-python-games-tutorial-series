@@ -19,5 +19,5 @@
 
 9) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul.  ( USING DICTIONARY AND FOR AND WHILE LOOP ) 
 
-10) Space Rescue = Rescue the red ships and avoid the rocks  ( USING TURTLE GRAPHICS ) 
+10) Space Rescue = Rescue the red ships and avoid the rocks  ( USING TURTLE GRAPHICS LIBRARY ) 
         
