@@ -1,5 +1,5 @@
-# 8-mini-games
-8 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.  
+# 10-mini-games
+10 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.  
 
 1) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his.  ( USING FUNCTION )
 
@@ -17,4 +17,7 @@
 
 8) A Grot's Life = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. ( VERSION A USING OOP OBJECT ORIENTED PROGRAMMING WHILST VERSION B ALSO DEMONSTRATE HOW TO IMPORT FROM DIFFERENT PYTHON FILES' ) 
 
+9) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul.  ( USING DICTIONARY AND FOR AND WHILE LOOP ) 
+
+10) Space Rescue = Rescue the red ships and avoid the rocks  ( USING TURTLE GRAPHICS ) 
         
