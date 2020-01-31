@@ -1,6 +1,14 @@
 import random
 import time
 
+
+# Stats 
+health=100
+gold=0
+alive=True
+encounter=False   # This is used so that unique encounter only happen once. 
+
+
 # Game Title :  The Slumber of the Doom King
 
 # function that provides input from player 
@@ -14,11 +22,45 @@ def input_direction():
 
     return direction
 
-# Stats 
 
-health=100
-gold=0
-alive=True
+def nothing():
+    pass
+
+def jester():
+
+
+    
+    global encounter   # If you do not use global the encounter within the function is consider a local variable
+                       # and you will have a "local variable referenced before assignment error" 
+
+    
+    while encounter==False: 
+    
+        print ("You see a sad jester in the corner of the room")
+        print ("He ask you a question")
+        question1=input("Can you spare me some life for some gold ? Y or N")
+        question=question1.lower()
+        
+        if question=="y" or question=="yes":
+            global life
+            global gold 
+            life=-10
+            gold=+300
+            print("The Jester smile and say 'thank you'.")
+            print("You lose 10 life ")
+            print("You gain 300 gold")
+            encounter=True
+
+            
+        else:
+            print("The Jester scream at you 'go away!' ")
+            encounter=True
+    else:
+        pass
+
+
+
+
 
 # Introduction 
 
@@ -29,6 +71,11 @@ print("Goal: Steal as much gold as possible and escape the castle of the Doom Ki
 print("Direction: North/East/South/West/Quit")
 
 time.sleep(1.5)
+
+#function
+
+
+
 
 # Set up the Locations
 
@@ -54,16 +101,36 @@ descr = dict({
              12: ""})
 
 
+# Unique events ( You can add different types of quests/storylines/characters for each location
+
+events = dict({
+              1: nothing,
+              2: jester,
+              3: nothing,
+              4: nothing,
+              5: nothing,
+              6: nothing,
+              7: nothing,
+              8: nothing,
+              9: nothing,
+             10: nothing,
+             11: nothing,
+             12: nothing,}) 
+
 
 
 currentRoom = 1
+
+
 
 # Game loop
 while alive==True:
 
     # Describe the current room
     print (descr[currentRoom])
-
+    events[currentRoom]()
+    
+    
     loot=random.randrange(1,20)
     loot1=str(loot)
     print ("you find",loot1,"gold")
