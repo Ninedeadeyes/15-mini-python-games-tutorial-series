@@ -17,7 +17,7 @@
 
 8) A Grot's Life = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. ( VERSION A USING OOP OBJECT ORIENTED PROGRAMMING WHILST VERSION B ALSO DEMONSTRATE HOW TO IMPORT FROM DIFFERENT PYTHON FILES' ) 
 
-9) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul.  ( USING DICTIONARY AND FOR AND WHILE LOOP ) 
+9) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul.  ( USING DICTIONARY,WHILE LOOP, GLOBAL VARIABLES ) 
 
 10) Space Rescue = Rescue the red ships and avoid the rocks  ( USING TURTLE GRAPHICS LIBRARY ) 
 
