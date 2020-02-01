@@ -1,6 +1,4 @@
-import turtle
 from goblin import Goblin
-import random
 import time 
 
 
