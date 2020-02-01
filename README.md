@@ -1,25 +1,25 @@
 # 10-mini-games
 10 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.  
 
-1) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his.  ( USING FUNCTION )
+A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic FUNCTION game 
 
-2) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. (USING METHOD, WHILE LOOP ) 
+B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of METHOD and WHILE LOOP.
 
-3) The lord, The hunter and the fox= alternative to Rock,Paper,Scissors  ( USING LIST DATA TYPE AND  IF, ELIF AND ELSE STATEMENTS )  
+C) The lord, The hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
 
-4) Mini gamble = A simple 'Shell' game where you make bets on which pot the stone is under. ( USING WHILE LOOP, BREAK STATEMENT ) 
+D) Mini gamble = A simple 'Shell' game where you make bets on which pot the stone is under. Using WHILE LOOP and BREAK STATEMENT. 
 
-5) Dungeon Hack  = an Adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run.   ( USING FOR LOOP AND LIST DATA TYPE ) 
+E) Dungeon Hack  = an Adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run. Using FOR LOOP and LIST data type.
 
-6) The Haunted House= A mini adventure game. Your main goal is to escape the house with the loot. ( USING NESTED DICTIONARY DATA TYPE) 
+F) The Haunted House= A mini adventure game. Your main goal is to escape the house with the loot. Using NESTED DICTIONARY data type. 
 
-7) One Click RPG= An Idle RPG using Tkinter GUI library  ( USING TUPLES DATA TYPE AND TKINTER GUI LIBRARY ) 
+G) One Click RPG= An Idle RPG using Tkinter GUI library.Using TUPLES data type and TKINTER GUI library. 
 
-8) A Grot's Life = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. ( VERSION A USING OOP OBJECT ORIENTED PROGRAMMING WHILST VERSION B ALSO DEMONSTRATE HOW TO IMPORT FROM DIFFERENT PYTHON FILES' ) 
+H) A Grot's Life = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version implements OOP Object oriented programming whilst Version B also implements 'IMPORT'statement eg: transfering functions/class/lists from other scripts. 
 
-9) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul.  ( USING DICTIONARY,WHILE LOOP, GLOBAL VARIABLES ) 
+I) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY,WHILE LOOP, GLOBAL VARIABLES.
 
-10) Space Rescue = Rescue the red ships and avoid the rocks  ( USING TURTLE GRAPHICS LIBRARY ) 
+J) Space Rescue = Rescue the red ships and avoid the rocks. Using TURTLE GRAPHICS library ) 
 
 
 https://www.youtube.com/watch?v=Q7A_zDKSeEo  ( One click rpg ) 
