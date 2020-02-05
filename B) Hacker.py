@@ -11,15 +11,15 @@ print ("Welcome to Catwest Security System")
 
 
 
-raw = input("Enter the Password ")
+raw = input("Enter the Password ")  
 
-password=raw.lower()
-
+password=raw.lower()    # any input typed will become lower case 
+                        # 'lower' is a method 
 attempt=0
 
-while password != 'bob': 
-   print("Access denied")
-   attempt+=1
+while password != 'bob':    
+   print("Access denied")  
+   attempt+=1               
    
 
    if attempt == 1:
@@ -43,9 +43,11 @@ while password != 'bob':
 print("Access granted")
    
 
-input("press enter to exit")
+input("press enter to exit")  # In theory you can click any button to exit 
 
 
-
+      
       #!= is not equal 
-      # += add 
+      # += add
+      # == equals
+      

@@ -8,7 +8,7 @@ def game():
     print( "Fighter, ","Wizard, ","Thief, ","Paladin, ","Rogue ")
 
 
-    bag=[]
+    group=[]
 
     more_items= True
 
@@ -30,37 +30,37 @@ def game():
 
         if user_input=="FIGHTER":
            print("you have chosen the Fighter")
-           bag.append(user_input)
+           group.append(user_input)
            power+=5
         
 
         elif user_input=="THIEF":
            print("you have chosen the Thief")
-           bag.append(user_input)
+           group.append(user_input)
            scout+=5
 
         elif user_input=="WIZARD":
            print("you have chosen the Wizard")
-           bag.append(user_input)
+           group.append(user_input)
            magic+=5
         
         elif user_input=="ROGUE":
            print("you have chosen the rogue")
-           bag.append(user_input)
+           group.append(user_input)
            scout+=random.randint(2,5)
            power+=random.randint(2,5)     
 
         elif user_input=="PALADIN":
            print("you have chosen the Paladin")
-           bag.append(user_input)
+           group.append(user_input)
            power+= random.randint(2,5)
            magic+= random.randint(2,5)
 
         else:
             print("not a valid choice, but don't worry i'll pick someone for you")
             list=("VILLAGE IDIOT","SNOTLING JESTER","PROFESSIONAL COWARD","SAD CLOWN")
-            bob=random.choice(list)
-            bag.append(bob)
+            wildcard=random.choice(list)
+            group.append(wildcard)
             power+= random.randint(1,3)
             magic+=random.randint(1,3)
             scout+=random.randint(1,2)
@@ -75,8 +75,10 @@ def game():
        
     print("Your party is full, it is time to begin your adventure")
     print("You party consist of:")
-    for x in range(len(bag)):
-        print (x+1,bag[x])
+    for x in range(len(group)):     # This only really numbers your characters in your group  
+        print (x+1,group[x])        # For x in range = For every 'item' in the group  
+                                    # x+1 because range starts at 0, group[x]=acquire the value
+                                    # of the 'item' which will be PALADIN,ROGUE etc etc 
 
     dungeon=input(" Pick dungeon: Hard or Easy ?")
     dungeon=dungeon.lower()

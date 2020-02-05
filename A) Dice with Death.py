@@ -1,4 +1,12 @@
-import random
+import random   
+
+
+# A function is a block of organized,
+# reusable code that is used to perform a single,
+# related action
+
+# A function will need to be 'called' before it does anything
+# eg: intro()
 
 
 def intro():
@@ -9,9 +17,9 @@ def intro():
 
 def game():
     print("death rolls first")
-    death_roll=random.randint(1,12)
-    print( "death rolls",death_roll)
-    input("press enter to continue")
+    death_roll=random.randint(1,12)   # 'randint' is an inbuilt method of random
+    print( "death rolls",death_roll)  # A method is a function that is tied
+    input("press enter to continue")  # to an object 
     your_roll=random.randint(1,12)
     print("you roll",your_roll)
     input("press enter to continue")

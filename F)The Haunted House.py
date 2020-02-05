@@ -83,7 +83,7 @@ while True:
   while move == '':  
     move = input('>')           # If you click enter with no command it will just ask for input  
     
-  move = move.lower().split()   # lower case everything and split will turn a string into a list hence  ' get shotgun' = [get,shotgun]
+  move = move.lower().split()   # lower case everything and split will turn a string into a list hence  ' get shotgun' = move =[get,shotgun]
 
   if move[0]=="shoot":
       if "monster"in rooms[currentRoom] and move[1] in rooms[currentRoom]['monster'] and "shotgun" in inventory :
