@@ -1,10 +1,10 @@
 from tkinter import*
-from tkinter import ttk
+from tkinter import ttk   #ttk are actually separate files in tkinter, this updates the original with improved widgets.  
 import random
 
 
 
-class Application(Frame):
+class Application(Frame):  #Frame is a previously defined class. It's part of tkinter.
     def __init__ (self,master):
         super(Application,self).__init__(master)
         self.grid()
