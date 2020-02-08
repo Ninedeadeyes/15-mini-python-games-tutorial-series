@@ -19,8 +19,8 @@ def dice():
         guess=int(guess)
         while guess >3:
             print("It is out of 3 !!")
-            bbet = input("how much do you bet ? : ") 
-            bet = int(bbet)
+            guess= input("Which pot is the stone in ? : ")
+            guess=int(guess)
         die1 = random.randint(1,3) 
         print ("It is under pot ", die1) 
         if die1 !=guess: 
