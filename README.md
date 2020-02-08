@@ -14,7 +14,7 @@ E) Battle Master= Build the optimal army to defeat the dreaded orcs. Demonstrate
 
 F) Blood Pit= Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use data structure (LIST) to interact with global variable within a function. Also demonstrate a function with multiple arguments.  
 
-G) Dungeon Hack  = an Adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run. Using FOR LOOP and LIST data type.
+G) Dungeon Hack  = an adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run. Using FOR LOOP and LIST data type.
 
 H) The Haunted House= A mini adventure game. Your main goal is to escape the house with the loot. Using NESTED DICTIONARY data type. 
 
