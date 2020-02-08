@@ -8,11 +8,11 @@ B) Hacker= Goal of the game is to hack into Robert's account. The more attempts,
 
 C) The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
 
-D) Battle Master= Build the optimal army to defeat the dreaded orcs. Demonstrate how to use GLOBAL Function to interact with global variable within a function. Implement the use of TRY, EXCEPT AND BREAK statements and WHILE loops  
+D) Mini gamble = A simple 'Shell' game where you make bets on which pot the stone is under. Using WHILE loop and BREAK statement. 
 
-E) Blood Pit= Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use data structure (LIST) to interact with global variable within a function. Also demonstrate a function with multiple arguments.  
+E) Battle Master= Build the optimal army to defeat the dreaded orcs. Demonstrate how to use GLOBAL Function to interact with global variable within a function. Implement the use of TRY, EXCEPT AND BREAK statements and WHILE loops  
 
-F) Mini gamble = A simple 'Shell' game where you make bets on which pot the stone is under. Using WHILE loop and BREAK statement. 
+F) Blood Pit= Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use data structure (LIST) to interact with global variable within a function. Also demonstrate a function with multiple arguments.  
 
 G) Dungeon Hack  = an Adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run. Using FOR LOOP and LIST data type.
 
