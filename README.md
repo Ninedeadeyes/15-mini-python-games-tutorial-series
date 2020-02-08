@@ -10,7 +10,7 @@ C) The lord, The hunter and the fox= alternative to Rock,Paper,Scissors. Using L
 
 D) Battle Master= Build the optimal army to defeat the dreaded orcs. Demonstrate how to use GLOBAL Function to interact with global variable within a function.
 
-E) Blood Pit= Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use data structure (LIST) to interest with global variable within a function. 
+E) Blood Pit= Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use data structure (LIST) to interact with global variable within a function. Also demonstrate a function with multiple arguments.  
 
 F) Mini gamble = A simple 'Shell' game where you make bets on which pot the stone is under. Using WHILE LOOP and BREAK STATEMENT. 
 
