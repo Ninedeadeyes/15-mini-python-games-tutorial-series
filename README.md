@@ -6,7 +6,7 @@ A) Dice with Death = Simple dice game with death, you win you live. You lose, yo
 
 B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of METHOD and WHILE LOOP.
 
-C) The lord, The hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
+C) The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
 
 D) Battle Master= Build the optimal army to defeat the dreaded orcs. Demonstrate how to use GLOBAL Function to interact with global variable within a function. Implement the use of TRY, EXCEPT AND BREAK statements and WHILE loops  
 
