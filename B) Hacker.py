@@ -14,12 +14,12 @@ print ("Welcome to Catwest Security System")
 raw = input("Enter the Password ")  
 
 password=raw.lower()    # any input typed will become lower case 
-                        # 'lower' is a method 
+                        # 'lower' is a in-built method 
 attempt=0
 
-while password != 'bob':    
-   print("Access denied")  
-   attempt+=1               
+while password != 'bob':    # When password is 'bob' this will break 
+   print("Access denied")   # the while loop and then the next line 
+   attempt+=1               # of code will play eg: print ("Access granted")
    
 
    if attempt == 1:
