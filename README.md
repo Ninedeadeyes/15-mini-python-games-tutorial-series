@@ -10,7 +10,7 @@ C) The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using L
 
 D) Mini gamble = A simple 'Shell' game where you make bets on which pot the stone is under. Implement INT function converting 'string' to integer as well as BREAK statement. 
 
-E) Battle Master= Build the optimal army to defeat the dreaded orcs. Demonstrate how to use GLOBAL Function to interact with global variable within a function. Implement the use of TRY, EXCEPT AND BREAK statements and WHILE loops  
+E) Battle Master= Build the optimal army to defeat the dreaded orcs. Demonstrate how to use GLOBAL Function to interact with global variable within a function. Implement the use of TRY and EXCEPT statements
 
 F) Blood Pit= Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use data structure (LIST) to interact with global variable within a function. Also demonstrate a function with multiple arguments.  
 
