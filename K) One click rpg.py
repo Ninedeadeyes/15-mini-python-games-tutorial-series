@@ -193,7 +193,7 @@ root.mainloop()
 
 #### Example of how 'super' works'
 
-
+# Example 1 
 
 #class Base(object):
 #    def __init__(self):
@@ -232,7 +232,7 @@ root.mainloop()
 
 
 
-
+# Example 2 
 
 
 #class Computer():
@@ -253,6 +253,7 @@ root.mainloop()
 #print('This computer has this model:', lenovo.model)
 
 
+# Example 3 
 
 # RESULT 
 #This computer is: lenovo
@@ -261,3 +262,24 @@ root.mainloop()
 #This computer has this model: l420
 
 
+#class Mammal(object):
+#  def __init__(self, mammalName):
+#    print(mammalName, 'is a warm-blooded animal.')
+#    
+#class Dog(Mammal):
+#  def __init__(self):
+#    print('Dog has four legs.')
+#    super().__init__('Dog')
+#    
+#d1 = Dog()
+#
+#Result
+
+#Dog has four legs.
+#Dog is a warm-blooded animal.
+#
+#
+#The super() builtin returns a proxy object, a substitute object that can call
+#methods of the base class via delegation.
+#This is called indirection (ability to reference base object with super())
+#
