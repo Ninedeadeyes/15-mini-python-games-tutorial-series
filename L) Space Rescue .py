@@ -40,7 +40,7 @@ class Pen(turtle.Turtle):
         super().__init__()             # alternative can be turtle.Turtle.__init__(self)
                                        # instead of super(),will let the parent class to       
     def show_rules(self):              # handle additional attributes/function.
-        self.ht()                      # This is needed to inherit turtle.Turtle functions. 
+        self.ht()                      # This is needed to inherit turtle.Turtle classes/methods. 
         self.up()
         msg = ("Controls: ArrowKeys, Rescue the red ships and avoid the rocks  ")
         self.goto(-300, -450)
