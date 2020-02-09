@@ -4,13 +4,13 @@ import random
 
 
 
-class Application(Frame):  #Frame is a previously defined class. It's part of tkinter.
-    def __init__ (self,master):
-        super(Application,self).__init__(master)
-        self.grid()
-        self.create_widgets()
-        self.gold=0
-        self.exp=0
+class Application(Frame):                          #Frame is a previously defined class. It's part of tkinter.
+    def __init__ (self,master):                    # 'master' is just the augment, in this example it will be Application(root)   
+        super(Application,self).__init__(master)   #super(Application,self)=(subclass,itself) so no difference from super() 
+        self.grid()                                # __init__ ( known as a constructor or initialization method) 
+        self.create_widgets()                      # This automatically invoked when new object is created, The augment is passed to the base method.
+        self.gold=0                                # The superclass constructor will invoke create_widgets() creating the GUI    
+        self.exp=0                                 # super allows access to base methods ( bottom of code provide example ) 
         self.lexp=0
         self.level=0
         self.area=["Forest of the Chaos Harlequins ","Forgotten Graveyard of Endal","Castle of the Blackest Knight","Haunted Farm of Yondor","Deathtrap Dungeon of Borgon"," Mysterious Swampland of Kuluth",
@@ -187,3 +187,60 @@ root.geometry("380x150")
 app=Application(root)
 
 root.mainloop()
+
+
+
+
+#### Example of how 'super' works'
+
+
+
+#class Base(object):
+#    def __init__(self):
+#        print("Base init'ed")
+#
+#class ChildA(Base):
+#    def __init__(self):
+#        print("ChildA init'ed")
+#        Base.__init__(self)
+#
+#class ChildB(Base):
+#    def __init__(self):
+#        print("ChildB init'ed")
+#        super(ChildB, self).__init__()
+#
+#
+#ab=ChildB()
+#ac=ChildA()
+
+
+
+
+
+#class Rectangle:
+#    def __init__(self, length, width):
+#        self.length = length
+#        self.width = width
+#
+#    def area(self):
+#        return self.length * self.width
+#
+#    def perimeter(self):
+#        return 2 * self.length + 2 * self.width
+#
+# 
+#class Square(Rectangle):
+#    def __init__(self, length):
+#        super().__init__(length, length)
+
+
+
+#>>> square = Square(4)
+#>>> square.area()
+#16
+
+
+
+
+
+
