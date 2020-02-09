@@ -37,10 +37,10 @@ class Game():
 
 class Pen(turtle.Turtle):
     def __init__(self):
-        super().__init__()
-
-    def show_rules(self):
-        self.ht()
+        super().__init__()             # alternative can be turtle.Turtle.__init__(self)
+                                       # instead of super(),will let the parent class to       
+    def show_rules(self):              # handle additional attributes/function.
+        self.ht()                      # This is needed to inherit turtle.Turtle functions. 
         self.up()
         msg = ("Controls: ArrowKeys, Rescue the red ships and avoid the rocks  ")
         self.goto(-300, -450)
@@ -81,7 +81,7 @@ class Pen(turtle.Turtle):
 class Sprite(turtle.Turtle):
 
     def __init__(self, spriteshape, color, startx, starty):
-        turtle.Turtle.__init__(self, shape = spriteshape)
+        super().__init__(shape = spriteshape)
         self.speed(0)
         self.penup()
         self.color(color)
@@ -125,11 +125,11 @@ class Sprite(turtle.Turtle):
 
 class Player(Sprite):
     def __init__(self, spriteshape, color, startx, starty):
-        Sprite.__init__(self, spriteshape, color, startx, starty)
-        self.speed =1
-        self.points=0
-
-    def turn_left(self):
+        super().__init__(spriteshape, color, startx, starty)   # Because of super() we don't need
+        self.speed =1                                          # write out those attributes again 
+        self.points=0                                          # eg : self.color within player class. 
+                                                               # Since it will be handles by parent class 
+    def turn_left(self):                                       # Any difference will need to be alter eg: self.speed
         self.lt(45)
         
         
@@ -152,14 +152,14 @@ class Player(Sprite):
 
 class Ship(Sprite):
     def __init__(self, spriteshape, color, startx, starty):
-        Sprite.__init__(self, spriteshape, color, startx, starty)
+        super().__init__(spriteshape, color, startx, starty)
         self.speed = 0
         self.setheading(random.randint(0,360))
 
         
 class Enemy(Sprite):
     def __init__(self, spriteshape, color, startx, starty):
-        Sprite.__init__(self, spriteshape, color, startx, starty)
+        super().__init__(spriteshape, color, startx, starty)
         self.speed = .5
         self.setheading(random.randint(0,360))
 
