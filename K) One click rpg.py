@@ -4,13 +4,13 @@ import random
 
 
 
-class Application(Frame):                          #Frame is a previously defined class. It's part of tkinter.
-    def __init__ (self,master):                    # 'master' is just the augment, in this example it will be Application(root) root=TK()   
-        super().__init__(master)                   # super(Application,self)=(subclass,itself) so no difference from super() can use  Frame (self,master) too 
-        self.grid()                                # __init__ ( known as a constructor or initialization method) 
-        self.create_widgets()                      # This automatically invoked when new object is created, The augment is passed to the parent based method.
-        self.gold=0                                # The superclass constructor will invoke create_widgets() creating the GUI    
-        self.exp=0                                 # super allows access to parent class methods ( bottom of code provide example ) 
+class Application(Frame):                          #Frame is a previously defined class/widget designed to be a container for other widgets, cannot exist without tk
+    def __init__ (self,master):                    # 'master' is just the augment, in this example it will be Application(root) root=TK()( root window) 
+        super().__init__(master)                   # super(Application,self)=(subclass,itself) so no difference from super() can also use  Frame and (self,master) too 
+        self.grid()                                # The superclass constructor will invoke create_widgets() creating the GUI                       
+        self.create_widgets()                      # super allows access to parent methods/attributes ( bottom of code provide examples )  
+        self.gold=0                                 
+        self.exp=0                              
         self.lexp=0
         self.level=0
         self.area=["Forest of the Chaos Harlequins ","Forgotten Graveyard of Endal","Castle of the Blackest Knight","Haunted Farm of Yondor","Deathtrap Dungeon of Borgon"," Mysterious Swampland of Kuluth",
@@ -197,50 +197,67 @@ root.mainloop()
 
 #class Base(object):
 #    def __init__(self):
-#        print("Base init'ed")
+#        print ("Base created")
+#        Base.bob()
+#
+#    def bob():
+#        print("hi buddy")
+#
+#    def dog():
+#        print("good bye")
 #
 #class ChildA(Base):
 #    def __init__(self):
-#        print("ChildA init'ed")
 #        Base.__init__(self)
 #
 #class ChildB(Base):
 #    def __init__(self):
-#        print("ChildB init'ed")
-#        super(ChildB, self).__init__()
+#        super().__init__()
+#        
+#
+#ChildA()
+#
+#ChildB()
 #
 #
-#ab=ChildB()
-#ac=ChildA()
-
-
-
-
-
-#class Rectangle:
-#    def __init__(self, length, width):
-#        self.length = length
-#        self.width = width
+#ChildB.dog()
 #
-#    def area(self):
-#        return self.length * self.width
 #
-#    def perimeter(self):
-#        return 2 * self.length + 2 * self.width
+# RESULT
+#Base created
+#hi buddy
+#Base created
+#hi buddy
+#good bye
+
+
+
+
+
+
+#class Computer():
+#    def __init__(self, computer, ram, ssd):
+#        self.computer = computer
+#        self.ram = ram
+#        self.ssd = ssd
 #
-# 
-#class Square(Rectangle):
-#    def __init__(self, length):
-#        super().__init__(length, length)
+#class Laptop(Computer):
+#    def __init__(self, computer, ram, ssd, model):
+#        super().__init__(computer, ram, ssd)
+#        self.model = model
+#
+#lenovo = Laptop('lenovo', 2, 512, 'l420')
+#print('This computer is:', lenovo.computer)
+#print('This computer has ram of', lenovo.ram)
+#print('This computer has ssd of', lenovo.ssd)
+#print('This computer has this model:', lenovo.model)
 
 
 
-#>>> square = Square(4)
-#>>> square.area()
-#16
-
-
-
-
+# RESULT 
+#This computer is: lenovo
+#This computer has ram of 2
+#This computer has ssd of 512
+#This computer has this model: l420
 
 
