@@ -24,7 +24,7 @@ J) The Slumber of the Doom King= Break into the Doom King's castle and steal as 
 
 K) One Click RPG= An Idle RPG using Tkinter GUI library.Using TUPLES data type and TKINTER GUI library. 
 
-L) Space Rescue = Rescue the red ships and avoid the rocks. Using TURTLE GRAPHICS library ) 
+L) Space Rescue = Rescue the red ships and avoid the rocks. Using TURTLE GRAPHICS library 
 
 
 https://www.youtube.com/watch?v=Q7A_zDKSeEo  ( One click rpg ) 
