@@ -11,11 +11,15 @@ food=("Mushrooms","Meaty Bones","Rotten Apples","Spoiled Meat")
 larder=[]
 goal=[]
 
+# __init__ ( known as a constructor or initialization method)
+# This automatically invoked when new object is created.
+# eg: gob = Goblin(gob_name,0,100,0,20)
+
 
 class Goblin(object):
 
     
-    def __init__(self, name, hunger,health,provision,gold ):
+    def __init__(self, name, hunger,health,provision,gold ):    
         self.name = name
         self.hunger = hunger
         self.health= health
