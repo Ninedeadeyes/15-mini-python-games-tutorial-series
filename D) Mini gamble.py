@@ -32,7 +32,7 @@ def dice():
 
         if total<=0:
             print("Go home you have no more gold left ")
-            break
+            break        # Automatically break the while loop hence ending the game 
         game = input("Play again? (Y/N)")
         game= game.upper()
 
