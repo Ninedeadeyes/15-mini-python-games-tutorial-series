@@ -21,14 +21,15 @@ while True:
     "You are the new commander, you have 100 men which you have to
     allocate to the apprioate position to win the war """)
 
-  
+    #The try and except block in Python is used to catch and handle exceptions.      
+
     while True:  
         knight=input("how many Knights ?")
         try:
             int(knight)
             break
 
-        except ValueError:
+        except:        
             print("This is not a number")
 
 
@@ -38,7 +39,7 @@ while True:
             int(farmer)
             break
 
-        except ValueError:
+        except:
             print("This is not a number")
                 
 
@@ -48,7 +49,7 @@ while True:
             int(defender)
             break
 
-        except ValueError:
+        except:
             print("This is not a number")
 
 
