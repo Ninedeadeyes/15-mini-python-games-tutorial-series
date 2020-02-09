@@ -5,12 +5,12 @@ import random
 
 
 class Application(Frame):                          #Frame is a previously defined class. It's part of tkinter.
-    def __init__ (self,master):                    # 'master' is just the augment, in this example it will be Application(root)   
-        super(Application,self).__init__(master)   #super(Application,self)=(subclass,itself) so no difference from super() 
+    def __init__ (self,master):                    # 'master' is just the augment, in this example it will be Application(root) root=TK()   
+        super().__init__(master)                   # super(Application,self)=(subclass,itself) so no difference from super() can use  Frame (self,master) too 
         self.grid()                                # __init__ ( known as a constructor or initialization method) 
-        self.create_widgets()                      # This automatically invoked when new object is created, The augment is passed to the base method.
+        self.create_widgets()                      # This automatically invoked when new object is created, The augment is passed to the parent based method.
         self.gold=0                                # The superclass constructor will invoke create_widgets() creating the GUI    
-        self.exp=0                                 # super allows access to base methods ( bottom of code provide example ) 
+        self.exp=0                                 # super allows access to parent class methods ( bottom of code provide example ) 
         self.lexp=0
         self.level=0
         self.area=["Forest of the Chaos Harlequins ","Forgotten Graveyard of Endal","Castle of the Blackest Knight","Haunted Farm of Yondor","Deathtrap Dungeon of Borgon"," Mysterious Swampland of Kuluth",
