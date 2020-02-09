@@ -4,7 +4,7 @@ I have done some 'notes' to explain the more complicated code but if you do not 
 
 A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using FUNCTIONS 
 
-B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of METHOD and WHILE LOOP.
+B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function and WHILE loop.
 
 C) The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
 
