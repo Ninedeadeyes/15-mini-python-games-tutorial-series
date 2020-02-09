@@ -1,6 +1,4 @@
 
-# A grots life. 
-
 
 import random
 
@@ -14,6 +12,7 @@ goal=[]
 # __init__ ( known as a constructor or initialization method)
 # This automatically invoked when new object is created.
 # eg: gob = Goblin(gob_name,0,100,0,20)
+# can invoke functions but in this case just intial attribute values 
 
 
 class Goblin(object):
