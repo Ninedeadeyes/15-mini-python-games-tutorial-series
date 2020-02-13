@@ -104,7 +104,7 @@ while True:
     print("It is turn "+str(turn_counter))
 
     if rep>2000:
-        print("You are the master of the arena")
+        print("You are the master of the blood pit")
         print("You beat the game in turn "+ str(turn_counter))
         input("You win, press enter to exit")
         break 
