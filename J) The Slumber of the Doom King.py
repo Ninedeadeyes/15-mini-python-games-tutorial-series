@@ -6,7 +6,7 @@ import time
 health=100
 gold=0
 alive=True
-encounter=False   # This is used so that unique encounter only happen once. 
+encounter1=False   # This is used so that unique encounter only happen once. 
 
 
 # Game Title :  The Slumber of the Doom King
@@ -20,8 +20,8 @@ def input_direction():
         direction1 = input("Invalid answer,which direction do you want to go? ")
         direction=direction1.lower()
 
-    return direction
-
+    return direction   # When you execute input_direction it will return 'the direction' eg: north,south,east,west 
+                       # Return statement is used in a function to return something to the caller program.
 
 def nothing():
     pass
@@ -30,11 +30,11 @@ def jester():
 
 
     
-    global encounter   # If you do not use global the encounter within the function is consider a local variable
+    global encounter1   # If you do not use global the encounter within the function is consider a local variable
                        # and you will have a "local variable referenced before assignment error" 
 
     
-    while encounter==False: 
+    while encounter1==False: 
     
         print ("You see a sad jester in the corner of the room")
         print ("He ask you a question")
@@ -49,12 +49,12 @@ def jester():
             print("The Jester smile and say 'thank you'.")
             print("You lose 10 life ")
             print("You gain 300 gold")
-            encounter=True
+            encounter1=True
 
             
         else:
             print("The Jester scream at you 'go away!' ")
-            encounter=True
+            encounter1=True
     else:
         pass
 
@@ -183,7 +183,8 @@ while alive==True:
 
         # Otherwise look up whether there is a path that way
         if compass[newDir][currentRoom] != -1:
-            currentRoom = compass[newDir][currentRoom]
+            currentRoom = compass[newDir][currentRoom] # eg: compass[east][1] will return value 2 
+            print(newDir)  # This is just to demonstrate how 'return' works, can delete if you want 
         else:
             print ("There is no path in that direction")
         # If you find the exit 
