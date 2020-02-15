@@ -7,6 +7,8 @@ import random
 
 # A function will need to be 'called' before it does anything
 # eg: intro()
+# def intro() is a user defined function (created by the user)
+# print and input are inbuilt functions. 
 
 
 def intro():
