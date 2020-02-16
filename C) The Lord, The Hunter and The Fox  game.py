@@ -8,6 +8,7 @@ win=True
 
 while win:
     cpu=random.choice(list1)
+    print(cpu)
     user=input("Enter your choice:[fox, hunter, lord] or exit :  ")
     user=user.lower()
     
@@ -19,15 +20,13 @@ while win:
     elif user=="exit":
         print("Goodbye")
         print("you won, ", win_count,"times")
+        input("Press enter to exit")
         win=False
         
     elif user==cpu:
         print("computer choose " , cpu)
         print("It is a draw")
 
-    elif user != ("fox") or ("hunter")or ("lord"):
-        print("not valid")
-        continue 
     else:
         print("computer choose " , cpu)
         print("You lose")
