@@ -26,6 +26,5 @@ K) One Click RPG= An Idle RPG using Tkinter GUI library.Using TUPLES data type a
 
 L) Space Rescue = Rescue the red ships and avoid the rocks. Using TURTLE GRAPHICS library 
 
-
-https://www.youtube.com/watch?v=Q7A_zDKSeEo  ( One click rpg ) 
+https://www.youtube.com/watch?v=ike4KGsFM2Y
         
