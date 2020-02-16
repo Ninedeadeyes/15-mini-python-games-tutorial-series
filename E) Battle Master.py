@@ -108,16 +108,19 @@ while True:
 
     if player1==5:
         print("""The Orcs has won the war. You have been defeated !!""")
+        
         break
 
-    input("Press enter to exit")
+    
         
 
     if player2==5:
         print("The Humans has won the war, congratulations !!")
+        
         break
 
-    input("Press enter to exit")
+
+input("Press enter to exit")
         
         
 
