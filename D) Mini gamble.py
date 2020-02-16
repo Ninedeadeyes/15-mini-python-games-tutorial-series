@@ -31,7 +31,7 @@ def dice():
            total+=bet*2 
 
         if total<=0:
-            print("Go home you have no more gold left ")
+            input("Go home you have no more gold left, press enter to escape ")
             break        # Automatically break the while loop hence ending the game 
         game = input("Play again? (Y/N)")
         game= game.upper()
@@ -39,7 +39,7 @@ def dice():
         if game== "N":
 
             print (" final amount = ", total, "Gold")
-            print("Good bye")
+            input("Good bye, press enter to escape")
 
 
 dice()
