@@ -170,7 +170,7 @@ while alive==True:
 
 
 
-    # calling the function of user input 
+    # calling the function of user input, works because the 'return' function was used 
     newDir = input_direction()
     
      
