@@ -2,7 +2,7 @@
 12 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.
 I have done some 'notes' to explain the more complicated code but if you do not understand something best thing to do is to google it 
 
-A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED and IN BUILT functions/methods, also demonstrate 'IMPORT' modules.   
+A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED and IN BUILT functions/methods, also demonstrate 'IMPORT' from 'RANDOM' module.   
 
 B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function and WHILE loop.
 
@@ -18,7 +18,7 @@ G) Dungeon Hack  = an adventure simulation game. You need to pick a band of adve
 
 H) The Haunted House= A mini adventure game. Your main goal is to escape the house with the loot. Using NESTED DICTIONARY data type. 
 
-I) A Grot's Life = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version implements OOP Object oriented programming whilst Version B also implements 'IMPORT' transfering functions/class/lists from other USER DEFINED scripts. Using CLASS is the best alternative for GLOBAL Function.
+I) A Grot's Life = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version implements OOP Object oriented programming whilst Version B also implements 'IMPORT' transfering functions/class/lists from other USER DEFINED module . Using CLASS is the best alternative for GLOBAL Function.
 
 J) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY and RETURN function. 
 
