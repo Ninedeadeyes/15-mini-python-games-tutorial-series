@@ -16,7 +16,7 @@ print ("Welcome to Catwest Security System")
 raw = input("Enter the Password ")  
 
 password=raw.lower()    # any input typed will become lower case 
-                        # 'lower' is a in-built method 
+                        # 'lower' is an in-built method 
 attempt=0
 
 while password != 'bob':    # When password is 'bob' this will break 
