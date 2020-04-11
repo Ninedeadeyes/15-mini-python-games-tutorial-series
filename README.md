@@ -2,7 +2,7 @@
 12 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.
 I have done some 'notes' to explain the more complicated code but if you do not understand something best thing to do is to google it 
 
-A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED and IN BUILT functions/methods.  
+A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED and IN BUILT functions/methods,also demonstrate 'IMPORT' modules.   
 
 B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function and WHILE loop.
 
