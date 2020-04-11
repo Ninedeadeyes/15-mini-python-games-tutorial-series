@@ -9,17 +9,24 @@ food=("Mushrooms","Meaty Bones","Rotten Apples","Spoiled Meat")
 larder=[]
 goal=[]
 
+# Class defines an object
+
+#self represents the instance of the class.
+#When objects are instantiated, the object itself is passed into the self parameter.
+#Because of this, the object’s data is bound to the object
+
 # __init__ ( known as a constructor or initialization method)
 # This automatically invoked when new object is created.
-# eg: gob = Goblin(gob_name,0,100,0,20)
-# can invoke functions but in this case just intial attribute values 
+# All class will have a method __init__ which provide instructions on what arguments is needed
+# eg: gob = Goblin(gob_name,0,100,0,20) which is the goblin's name,hunger,health,provision,gold
+# can invoke functions/methods but in this case just intialize attribute values 
 
 
 class Goblin(object):
 
     
-    def __init__(self, name, hunger,health,provision,gold ):    
-        self.name = name
+    def __init__(self, name, hunger,health,provision,gold ):       
+        self.name = name                                         
         self.hunger = hunger
         self.health= health
         self.provision= provision
