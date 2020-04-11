@@ -17,7 +17,7 @@ turtle.tracer(0)
 
 
 class Game():
-    def __init__(self):                     # All class will have a method __init__ which provide instructions on what arguments is needed, example below with arguments needed
+    def __init__(self):                     # All class will have a method __init__ which provide instructions on what arguments is needed, example below
         self.pen = turtle.Turtle()          # Has also invoked an turtle method (an additional attribute) to draw borders. 
         
     def draw_border(self):  #Function that draw border         
@@ -40,7 +40,7 @@ class Pen(turtle.Turtle):              # Example of class inheritance, inheritin
         super().__init__()             # alternative can be turtle.Turtle.__init__(self)
                                        # instead of super(),will let the parent class to       
     def show_rules(self):              # handle additional attributes/function.
-        self.ht()                      # This is needed to inherit turtle.Turtle classe/methods. 
+        self.ht()                      # This is needed to inherit turtle.Turtle classes/methods. 
         self.up()
         msg = ("Controls: ArrowKeys, Rescue the red ships and avoid the rocks  ")
         self.goto(-300, -450)
@@ -80,11 +80,12 @@ class Pen(turtle.Turtle):              # Example of class inheritance, inheritin
 
 class Sprite(turtle.Turtle):
 
-    def __init__(self, spriteshape, color, startx, starty):
-        super().__init__(shape = spriteshape)
+    def __init__(self, shape, color, startx, starty):
+        super().__init__()
         self.speed(0)
         self.penup()
         self.color(color)
+        self.shape(shape)
         self.fd(0)
         self.goto(startx, starty)
         self.speed = 1
@@ -124,8 +125,8 @@ class Sprite(turtle.Turtle):
 
 
 class Player(Sprite):
-    def __init__(self, spriteshape, color, startx, starty):
-        super().__init__(spriteshape, color, startx, starty)   # Because of super() we don't need
+    def __init__(self, shape, color, startx, starty):
+        super().__init__(shape, color, startx, starty)   # Because of super() we don't need
         self.speed =1                                          # write out those attributes again 
         self.points=0                                          # eg : self.color within player class. 
                                                                # Since it will be handles by parent class 
@@ -151,8 +152,8 @@ class Player(Sprite):
             
 
 class Ship(Sprite):
-    def __init__(self, spriteshape, color, startx, starty):
-        super().__init__(spriteshape, color, startx, starty)
+    def __init__(self, shape, color, startx, starty):
+        super().__init__(shape, color, startx, starty)
         self.speed = 0
         self.setheading(random.randint(0,360))
 
