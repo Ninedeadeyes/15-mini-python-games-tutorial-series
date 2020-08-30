@@ -18,7 +18,7 @@ G) Dungeon Hack  = an adventure simulation game. You need to pick a band of adve
 
 H) The Haunted House= A mini adventure game. Your main goal is to escape the house with the loot. Using NESTED DICTIONARY data type. 
 
-I) A Grot's Life = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version implements OOP Object oriented programming whilst Version B also implements 'IMPORT' transfering functions/class/lists from other USER DEFINED module . Using CLASS is the best alternative for GLOBAL Function.
+I) A Grot's Life = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version implements OOP Object oriented programming whilst Version B also implements 'IMPORT' transfering functions/class/lists from USER DEFINED modules (MODULARITY). Using CLASS is the best alternative for GLOBAL Function.
 
 J) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY and RETURN function. 
 
