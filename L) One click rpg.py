@@ -5,10 +5,10 @@ import random
 
 
 class Application(Frame):                          #Frame is a previously defined class/widget designed to be a container for other widgets, cannot exist without tk
-    def __init__ (self,master):                    # 'master' is just the augment, in this example it will be Application(root) root=TK()( root window) 
-        super().__init__(master)                   # super(Application,self)=(subclass,itself) so no difference from super() can also use  Frame and (self,master) too 
-        self.grid()                                # The superclass constructor will invoke create_widgets() creating the GUI                       
-        self.create_widgets()                      # super allows access to parent methods/attributes ( bottom of code provide examples )  
+    def __init__ (self,master):                    # 'master' is just the augment, in this example it will be root eg: Application(root) which is basically Tk() 
+        Frame.__init__(self,master)                # Frame is just the container that is being created
+        self.grid()                                # __init__ will call all data and methods below eg : self.create_widget                     
+        self.create_widgets()                      
         self.gold=0                                 
         self.exp=0                              
         self.lexp=0
@@ -191,97 +191,3 @@ root.mainloop()
 
 
 
-#### Example of how 'super' works'
-
-# Example 1 
-
-#class Base(object):
-#    def __init__(self):
-#        print ("Base created")
-#        Base.bob()
-#
-#    def bob():
-#        print("hi buddy")
-#
-#    def dog():
-#        print("good bye")
-#
-#class ChildA(Base):
-#    def __init__(self):
-#        Base.__init__(self)
-#
-#class ChildB(Base):
-#    def __init__(self):
-#        super().__init__()
-#        
-#
-#ChildA()
-#
-#ChildB()
-#
-#
-#ChildB.dog()
-#
-#
-# RESULT
-#Base created
-#hi buddy
-#Base created
-#hi buddy
-#good bye
-
-
-
-# Example 2 
-
-
-#class Computer():
-#    def __init__(self, computer, ram, ssd):
-#        self.computer = computer
-#        self.ram = ram
-#        self.ssd = ssd
-#
-#class Laptop(Computer):
-#    def __init__(self, computer, ram, ssd, model):
-#        super().__init__(computer, ram, ssd)
-#        self.model = model
-#
-#lenovo = Laptop('lenovo', 2, 512, 'l420')
-#print('This computer is:', lenovo.computer)
-#print('This computer has ram of', lenovo.ram)
-#print('This computer has ssd of', lenovo.ssd)
-#print('This computer has this model:', lenovo.model)
-
-
-
-
-# RESULT 
-#This computer is: lenovo
-#This computer has ram of 2
-#This computer has ssd of 512
-#This computer has this model: l420
-
-
-# Example 3 
-
-#class Mammal(object):
-#  def __init__(self, mammalName):
-#    print(mammalName, 'is a warm-blooded animal.')
-#    
-#class Dog(Mammal):
-#  def __init__(self):
-#    print('Dog has four legs.')
-#    super().__init__('Dog')
-#    
-#d1 = Dog()
-#
-#Result
-
-#Dog has four legs.
-#Dog is a warm-blooded animal.
-#
-#
-#The super() builtin returns a proxy object, a substitute object that can call
-#methods of the base class via delegation.
-#This is called indirection (ability to reference base object with super())
-#
