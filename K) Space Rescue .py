@@ -36,11 +36,11 @@ class Game():
 
 
 class Pen(turtle.Turtle):              # Example of class inheritance, inheriting from the parent 'turtle.Turtle' 
-    def __init__(self):
-        super().__init__()             # alternative can be turtle.Turtle.__init__(self)
-                                       # instead of super(),will let the parent class to       
-    def show_rules(self):              # handle additional attributes/function.
-        self.ht()                      # This is needed to inherit turtle.Turtle classes/methods. 
+    def __init__(self):                # The 'child' class (PEN)  inherit the properties and methods from the Parent class (turtle.Turtle) 
+        turtle.Turtle.__init__(self)   #This line of code is needed to keep the inheritance of the parent's __init__() function otherwise 
+                                       # it will be overrided by the child's __init() function        
+    def show_rules(self):              
+        self.ht()                       
         self.up()
         msg = ("Controls: ArrowKeys, Rescue the red ships and avoid the rocks  ")
         self.goto(-300, -450)
