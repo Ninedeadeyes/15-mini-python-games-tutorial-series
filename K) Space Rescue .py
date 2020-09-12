@@ -17,7 +17,7 @@ turtle.tracer(0)
 
 
 class Game():
-    def __init__(self):                     # All class will have a method __init__ which provide instructions on what arguments is needed, example below
+    def __init__(self):                     # All class will have a method __init__ which provide instructions on what arguments is needed, example below at *
         self.pen = turtle.Turtle()          # Has also invoked an turtle method (an additional attribute) to draw borders. 
         
     def draw_border(self):  #Function that draw border         
@@ -229,7 +229,7 @@ while True:
     turtle.update()
 
 
-# __init__ Example
+# *__init__ Example
 
 
 
