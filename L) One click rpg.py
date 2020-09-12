@@ -4,10 +4,10 @@ import random
 
 
 
-class Application(Frame):                          #Frame is a previously defined class/widget designed to be a container for other widgets, cannot exist without tk
+class Application(Frame):                          #Frame is a previously defined class/widget designed to be a container for other widgets. Example of Class inheritance
     def __init__ (self,master):                    # 'master' is just the augment, in this example it will be root eg: Application(root) which is basically Tk() 
-        Frame.__init__(self,master)                # Frame is just the container that is being created
-        self.grid()                                # __init__ will call all data and methods below eg : self.create_widget                     
+        Frame.__init__(self,master)                # This line of code is needed to keep the inheritance of the parent's __init__() function otherwise it will be overrided by the child's __init() function
+        self.grid()                                # Inheritance allows us to define a class that inherits all the methods and properties from another class.                    
         self.create_widgets()                      
         self.gold=0                                 
         self.exp=0                              
