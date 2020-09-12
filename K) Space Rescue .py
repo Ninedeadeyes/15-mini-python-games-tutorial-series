@@ -81,8 +81,8 @@ class Pen(turtle.Turtle):              # Example of class inheritance, inheritin
 class Sprite(turtle.Turtle):
 
     def __init__(self, shape, color, startx, starty):
-        super().__init__()
-        self.speed(0)
+        super().__init__()     # By using the super() function instead of turtle.Turtle.__init__() , you do not have to use the name of the parent element, 
+        self.speed(0)          # it will automatically inherit the methods and properties from its parent.
         self.penup()
         self.color(color)
         self.shape(shape)
