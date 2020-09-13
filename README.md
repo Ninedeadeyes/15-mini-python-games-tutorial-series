@@ -22,9 +22,11 @@ I) A Grot's Life = A Survival crafting Game written in standard library where yo
 
 J) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY and RETURN function. 
 
+K) One Click RPG= An Idle RPG. Using TUPLES data type, TKINTER GUI library and INHERITANCE CLASS  
+
 L) Space Rescue = Rescue the red ships and avoid the rocks. Using TURTLE GRAPHICS library and INHERITANCE CLASS.  
 
-K) One Click RPG= An Idle RPG. Using TUPLES data type, TKINTER GUI library and INHERITANCE CLASS  
+
 
 
 
