@@ -1,6 +1,9 @@
-# 12-mini-games
-12 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.
-I have done some 'notes' to explain the more complicated code but if you do not understand something best thing to do is to google it 
+# 14-mini-standard-library-games
+
+A collection of 12 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.
+I have done some 'notes' to explain the more complicated code but if you do not understand something best thing to do is to google it. 
+
+I have also added a couple of bonus games that doesn't fit within the collection for additional examples and reference.  
 
 A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED and IN BUILT functions/methods, also demonstrate 'IMPORT' from 'RANDOM' module.   
 
@@ -26,8 +29,11 @@ K) One Click RPG= An Idle RPG. Using TUPLES data type, TKINTER GUI library and I
 
 L) Space Rescue = Rescue the red ships and avoid the rocks. Using TURTLE GRAPHICS library and INHERITANCE CLASS.  
 
+Bonus games 
 
+The King's Curse = A simple text based adventure using Ascii graphics taken from  https://www.asciiart.eu/
 
+The Road To Eden = Make hard decisions as you make your way to the city of Eden. Demonstrate how to read from txt files. 
 
 
 https://www.youtube.com/watch?v=ike4KGsFM2Y
