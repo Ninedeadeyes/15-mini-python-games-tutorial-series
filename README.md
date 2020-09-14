@@ -1,4 +1,4 @@
-# 14-mini-standard-library-games
+# 14-mini-standard-library python-games
 
 A collection of 12 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.
 I have done some 'notes' to explain the more complicated code but if you do not understand something best thing to do is to google it. 
