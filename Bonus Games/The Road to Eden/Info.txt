@@ -1,0 +1,7 @@
+One of your men is sick and is slowing down your journey. What do you do?# A) Leave him behind B) Let him be carried#H#S#
+You see a Unicorn trapped in some bramble. What do you do?#A) Help her out of the bramble B) Ignore it because Unicorn don't exist#S#H# 
+You come across an injured man. What do you do?#A) Treat the man and find him some shelter B) Treat the man but quickly#S#H#  
+Your men need some rest and are complaining. What do you do? #A) Keep pushing ahead B) Stop for a little rest#H#S#
+You see a nearby village engulfed in flames. What do you do?#A) Let them burn B)Help put out the fire#H#S#
+You see a merchant who's caravan has broken down. What do you do?#A)Ransack the caravan  B) Fix the broken caravan#E#S#
+END#END#END#END# 
