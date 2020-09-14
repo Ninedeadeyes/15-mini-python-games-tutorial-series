@@ -7,7 +7,7 @@ file= open ("info.txt","r")     # This will open up the text file and r = read m
 line=file.readline()            # This will read each line of your text and then the next 
 Info=line.split("#")            # This will split the line/list by each # eg: Info[0],Info[1] 
 
-Match=[]                        # Any empty list
+Match=[]                        # An empty list
 
 
 
