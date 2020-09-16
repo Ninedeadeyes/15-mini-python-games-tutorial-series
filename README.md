@@ -1,9 +1,7 @@
 # 14-mini-standard-library python-games
 
 A collection of 12 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games to learn from.
-I have done some 'notes' to explain the more complicated code but if you do not understand something best thing to do is to google it. 
-
-I have also added a couple of bonus games that doesn't fit within the collection for additional examples and reference.  
+I have done some 'notes' to explain the more complicated code but if you do not understand something best thing to do is to google it. I have also added a couple of bonus games that doesn't fit within the collection for additional examples and reference.  
 
 A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED and IN BUILT functions/methods, also demonstrate 'IMPORT' from 'RANDOM' module.   
 
