@@ -4,6 +4,7 @@ list1= ["fox","hunter","lord"]
 print("This is an alternative game of rock, paper and scissors ")
 print("")
 win_count=0
+lose_count=0
 win=True
 
 while win:
@@ -19,10 +20,11 @@ while win:
     elif (user=="lord" and cpu=="fox")or(user=="fox" and cpu=="hunter")or (user=="hunter" and cpu=="lord"):
         print("computer choose " , cpu)
         print("You lose")
+        lose_count+=1
        
     elif user=="exit":
         print("Goodbye")
-        print("you won, ", win_count,"times")
+        print("you won, ", win_count," times.", "You lose,",lose_count," times.")
         win=False
         
     elif user==cpu:
