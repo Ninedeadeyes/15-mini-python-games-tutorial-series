@@ -80,13 +80,13 @@ time.sleep(1.5)
 # Set up the Locations
 
 
-compass = dict({ "north" : {1:-1,2:-1,3:-1,4:-1,5:1,6:2,7:3,8:4,9:5,10:6,11:7},
+compass = { "north" : {1:-1,2:-1,3:-1,4:-1,5:1,6:2,7:3,8:4,9:5,10:6,11:7},
                  "east":  {1:2,2:3,3:4,4:-1,5:6,6:7,7:8,8:-1,9:10,10:11,11:12},
                  "south": {1:5,2:6,3:7,4:8,5:9,6:10,7:11,8:12,9:-1,10:-1,11:-1},
                  "west": {1:-1,2:1,3:2,4:3,5:-1,6:5,7:6,8:7,9:-1,10:9,11:10}
-                })
+                }
 
-descr = dict({
+descr = {
               1: "Location: Master bedroom. You feel something is watching you",
               2: "Location: Nursery. There is a sense of forelorn here",
               3: "Location: Treasury. It has been ransacked a long time ago",
@@ -98,12 +98,12 @@ descr = dict({
               9: "Location: Armoury. Filled with a assortment of demonic weapons",
              10: "Location: Kitchen. Old pots and pans clutters the room ",
              11: "Location: Servant Quarter. A skeleton lies on the floor, a sad sight",
-             12: ""})
+             12: ""}
 
 
 # Unique events ( You can add different types of quests/storylines/characters for each location
 
-events = dict({
+events = {
               1: nothing,
               2: jester,
               3: nothing,
@@ -115,7 +115,7 @@ events = dict({
               9: nothing,
              10: nothing,
              11: nothing,
-             12: nothing,}) 
+             12: nothing,} 
 
 
 
