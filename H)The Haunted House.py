@@ -69,7 +69,18 @@ rooms = {
               },        
          }
 
+# Dictionary 
+
+# A Dictionary will have a value and a key and you will be able to 'extract the 'value from the key for example print room[0], Hall will be printed  
+#  Rooms is the key whilst Hall is the value. So in conclusion key[value] to extract value 
+
+
 # Nested Dictionary 
+
+# You can also have a Dictionary within a Dictionary and that is called a 'Nested Dictionary 
+# For example if you are if current Room is in 'Hall' and you instruct to 'go north' current Room will change to Bed Room 
+# because the code currentRoom = rooms[currentRoom][move[1]]  will equate to rooms[Hall][north] and the 'value' of the nested key 'north' is 'Bed Room
+# hence currentRoom becomes 'Bed Room'. So in conclusion  key[value][nested key] to extract nested value 
 
 currentRoom = 'Hall'
 
