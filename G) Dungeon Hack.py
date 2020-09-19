@@ -8,7 +8,7 @@ def game():
     print( "Fighter, ","Wizard, ","Thief, ","Paladin, ","Rogue ")
 
 
-    group=[]
+    group=[]                   # An empty list which begins with no items 
 
     open_slot= True
 
@@ -76,9 +76,8 @@ def game():
     print("Your party is full, it is time to begin your adventure")
     print("You party consist of:")
     for x in range(len(group)):     # This only really numbers your characters in your group  
-        print (x+1,group[x])        # For x in range = For every 'item' in the group  
-                                    # x+1 because range starts at 0, group[x]=acquire the value
-                                    # of the 'item' which will be PALADIN,ROGUE etc etc 
+        print (x+1,group[x])        # For x in range = For every 'item' in the group whilst len find the length of the list which will be (4)  
+                                    # x+1 because range starts at 0, group[x]=acquire the value of the 'item' which will be PALADIN,ROGUE etc etc 
 
     dungeon=input(" Pick dungeon: Hard or Easy ?")
     dungeon=dungeon.lower()
