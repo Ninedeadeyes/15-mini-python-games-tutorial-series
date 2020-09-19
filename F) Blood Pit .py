@@ -1,6 +1,6 @@
 hero_max_power=20
 hero_max_health=300
-hero_health=[300]
+hero_health=[300]        # This is a list []
 hero_power=[20]
 turn_counter=0
 rep=0
@@ -44,7 +44,7 @@ while True:
             enemy("Goblin",200,20)
             rep+=10
             hero_max_health+=20
-            hero_health[0]=hero_max_health
+            hero_health[0]=hero_max_health         # Within a 'list' the first item will be in [0] whilst the second will be in [1]. 
             hero_max_power+=5
             hero_power[0]=hero_max_power
             print("you become stronger with every goblin you slay")
