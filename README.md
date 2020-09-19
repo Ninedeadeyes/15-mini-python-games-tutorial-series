@@ -32,7 +32,7 @@ Bonus games
 
 The King's Curse = A simple text based adventure using Ascii graphics taken from  https://www.asciiart.eu/
 
-The Road To Eden = Make hard decisions as you make your way to the city of Eden. Demonstrate how to read from txt files. 
+The Road To Eden = Make hard decisions as you make your way to the city of Eden. Demonstrate how to open and read from txt files. 
 
 
 https://www.youtube.com/watch?v=ike4KGsFM2Y
