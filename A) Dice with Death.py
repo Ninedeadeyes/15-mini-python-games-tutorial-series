@@ -1,5 +1,5 @@
 import random     # This 'import' the random module which will be used in the programme 
-                  # This will provide acces to functions within the module. 
+                  # This will provide acces additional functions/modules within the module. From example : random.randint 
 
 
 
@@ -46,7 +46,7 @@ def game():
         intro()
         game()
 
-intro()                                 # A function will need to be 'called' before it does anything, eg: intro()  
+intro()                                 # A function will need to be 'called' before it does anything, eg: intro(),game()  
 game()                                  
 
     
