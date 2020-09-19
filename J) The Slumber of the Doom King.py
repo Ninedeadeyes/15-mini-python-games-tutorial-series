@@ -14,8 +14,8 @@ encounter1=False   # This is used so that unique encounter only happen once.
 # function that provides input from player 
 
 def input_direction():
-    direction1 = input("Which direction do you want to go? ")
-    direction=direction1.lower()
+    direction = input("Which direction do you want to go? ")
+    direction=direction.lower()
     while direction not in ["north", "south", "east", "west", "exit"]:
         direction1 = input("Invalid answer,which direction do you want to go? ")
         direction=direction1.lower()
@@ -182,10 +182,11 @@ while alive==True:
     else:
 
         # Otherwise look up whether there is a path that way
-        if compass[newDir][currentRoom] != -1:
-            currentRoom = compass[newDir][currentRoom] # eg: compass[east][1] will return value 2 
+        if compass[newDir][currentRoom] != -1:         # ( if it is a -1 means there is no path ) 
+            currentRoom = compass[newDir][currentRoom] # eg: compass[east][1] which is dic[key][nested key] will return value 2 which will be the new room/key
             print(newDir)  # This is just to demonstrate how 'return' works, can delete if you want 
-        else:
+      
+    else:
             print ("There is no path in that direction")
         # If you find the exit 
         if  currentRoom ==12:
