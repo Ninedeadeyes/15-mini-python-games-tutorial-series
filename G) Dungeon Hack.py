@@ -10,7 +10,7 @@ def game():
 
     group=[]
 
-    more_items= True
+    open_slot= True
 
     loop=0
 
@@ -20,7 +20,7 @@ def game():
 
     magic=0
 
-    while more_items:
+    while open_slot:
 
 
         
@@ -70,7 +70,7 @@ def game():
         loop+=1
 
         if loop==4:
-           more_items= False
+           open_slot= False
 
        
     print("Your party is full, it is time to begin your adventure")
