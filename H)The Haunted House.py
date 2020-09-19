@@ -71,8 +71,7 @@ rooms = {
 
 # Dictionary 
 
-# A Dictionary will have a value and a key and you will be able to 'extract the 'value from the key for example print room[0], Hall will be printed  
-#  Rooms is the key whilst Hall is the value. So in conclusion key[value] to extract value 
+# A Dictionary will have a value and a key and you will be able to 'extract the 'value from the key.  
 
 
 # Nested Dictionary 
