@@ -38,8 +38,8 @@ class Application(Frame):                          #Frame is a previously define
         self.story_txt=Text(self,width=45, height=5,wrap=WORD)
         self.story_txt.grid(row=3, column=0, columnspan=3, sticky = W)
 
-        self.stat_lbl1=Label(self,text="Power ranking: Ready to begin your quest from zero to hero ? ")
-        self.stat_lbl1.grid(row=5,column=0,columnspan=2,sticky=W)
+        self.stat_lb2=Label(self,text="Power ranking: Ready to begin your quest from zero to hero ? ")
+        self.stat_lb2.grid(row=5,column=0,columnspan=2,sticky=W)
 
     
 
@@ -176,7 +176,7 @@ class Application(Frame):                          #Frame is a previously define
 
         self.stat_lbl["text"]=stat
 
-        self.stat_lbl1["text"]=rank
+        self.stat_lb2["text"]=rank
         
 
 
@@ -186,7 +186,8 @@ root.title(" One Click RPG ")
 root.geometry("380x150")
 app=Application(root)
 
-root.mainloop()
+root.mainloop()      # This is a method on the main window which we execute when we want to run our application.
+                      #This method will loop forever, waiting for events from the user, until the user exits the program
 
 
 
