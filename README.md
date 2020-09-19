@@ -22,7 +22,7 @@ H) The Haunted House= A mini adventure game. Your main goal is to escape the hou
 
 I) A Grot's Life = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version implements OOP Object oriented programming whilst Version B also implements 'IMPORT' transfering functions/class/lists from USER DEFINED modules (MODULARITY). Using CLASS is the best method to interact with global variables.
 
-J) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY and RETURN function. 
+J) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY,NESTED DICTIONARY and RETURN function. 
 
 K) One Click RPG= An Idle RPG. Using TUPLES data type, TKINTER GUI library and INHERITANCE CLASS  
 
