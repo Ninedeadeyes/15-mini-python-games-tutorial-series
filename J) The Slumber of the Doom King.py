@@ -17,8 +17,8 @@ def input_direction():
     direction = input("Which direction do you want to go? ")
     direction=direction.lower()
     while direction not in ["north", "south", "east", "west", "exit"]:
-        direction1 = input("Invalid answer,which direction do you want to go? ")
-        direction=direction1.lower()
+        direction = input("Invalid answer,which direction do you want to go? ")
+        direction=direction.lower()
 
     return direction   # When you execute input_direction it will return 'the direction' eg: north,south,east,west 
                        # Return statement is used in a function to return something to the caller program.
