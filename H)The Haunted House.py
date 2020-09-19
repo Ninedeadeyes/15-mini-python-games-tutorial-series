@@ -73,6 +73,12 @@ rooms = {
 
 # A Dictionary will have a value and a key and you will be able to 'extract the 'value from the key.  
 
+#thisdict = {
+#"brand": "Ford",
+#"model": "Mustang",
+#"year": 1964 }
+
+#print thisdict[model]  will print 'model'  so in conclusion  dictionary[key] to extract value 
 
 # Nested Dictionary 
 
