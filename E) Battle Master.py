@@ -9,7 +9,7 @@ def player1_win():
     global player1        # Generally speakin Global function is the worst 
     player1+=1            # approach to interact with variable outside the 
                           # function but its good to know how to do it 
-def player2_win():        # Better methods is using data structure like list or CLASS 
+def player2_win():        # Better methods is using data structure like list or OOP (CLASS)  
     print("Humans win the battle")
     global player2
     player2+=1
