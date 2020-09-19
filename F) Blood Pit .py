@@ -34,8 +34,8 @@ def enemy(name,a,b):
 while True:
     
     print("Welcome to the blood pit, choose your opponent!! ")
-    choose1=input( "Please select goblin, orc, pit fighter or red dragon: ")
-    choose=choose1.upper()
+    choose=input( "Please select goblin, orc, pit fighter or red dragon: ")
+    choose=choose.upper()
 
     while choose is "GOBLIN" or "ORC" or "PIT FIGHTER" or "RED DRAGON":
 
