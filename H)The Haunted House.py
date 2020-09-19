@@ -133,7 +133,7 @@ while True:
     
   if move[0] == 'go':
       if move[1] in rooms[currentRoom]:
-          currentRoom = rooms[currentRoom][move[1]]    # acquire the new room (the value) from the 'direction'(the nested key) 
+          currentRoom = rooms[currentRoom][move[1]]    # acquire the new room (the nested value) from the 'direction'(the nested key) 
                                                        #eg rooms[Dining room][west] return value Hall hence currentRoom=Hall
       else:
           print('You can\'t go that way!')
