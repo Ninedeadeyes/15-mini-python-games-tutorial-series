@@ -24,7 +24,7 @@ while win:
        
     elif user=="exit":
         print("Goodbye")
-        print("you won, ", win_count," times.", "You lose,",lose_count," times.")
+        print("you won, ", win_count,"times.", "You lost,",lose_count,"times.")
         win=False
         
     elif user==cpu:
