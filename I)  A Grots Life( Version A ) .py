@@ -21,9 +21,9 @@ goal=[]
 # eg: gob = Goblin(gob_name,0,100,0,20) which is the goblin's name,hunger,health,provision,gold
 # can invoke functions/methods but in this case just intialize attribute values 
 
-# (object) = Based the class on 'object' a fundamental, built in type 
 # In python 3 it makes little difference if it is class Goblin: or Goblin (object) or Globin():  
-# since in python 3 it inherits it behind the scence. 
+# since in python 3 it inherits it behind the scence anyway so 'Goblin:' would be fine
+#Left it in the code just to make you aware if you ever see (object), took me awhile to research. 
 
 class Goblin(object):
 
