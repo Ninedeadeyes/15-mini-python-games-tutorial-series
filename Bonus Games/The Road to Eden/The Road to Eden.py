@@ -54,6 +54,8 @@ elif soft > hard:
 elif soft==hard:
     print ("Congratulations, you reach Eden on time. Your men celebrate your victory")
 
+    
+ #https://github.com/Ninedeadeyes/15-mini-python-games-
 
 
 
