@@ -253,7 +253,7 @@ while True:
 #This computer has ssd of 512
  
 
-
+#https://github.com/Ninedeadeyes/15-mini-python-games-
 
 
 
