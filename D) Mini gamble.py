@@ -43,3 +43,6 @@ def dice():
 
 
 dice()
+
+
+#https://github.com/Ninedeadeyes/15-mini-python-games-
