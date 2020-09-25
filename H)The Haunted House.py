@@ -170,3 +170,6 @@ while True:
 # For example within the above game if you are if current Room is in 'Hall' and you instruct to 'go north' current Room will change to Bed Room 
 # because the code currentRoom = rooms[currentRoom][move[1]]  will equate to rooms[Hall][north] and the 'value' of the nested key 'north' is 'Bed Room
 # hence currentRoom becomes 'Bed Room'. So in conclusion  dictionary[key][nested key] to extract nested value 
+
+
+#https://github.com/Ninedeadeyes/15-mini-python-games-
