@@ -34,7 +34,7 @@ Bonus games
 
 The King's Curse = A simple text based adventure using Ascii graphics taken from  https://www.asciiart.eu/
 
-Who Dare Wins= A tactical dice game with a high score function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
+Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
 
 The Road To Eden = Make hard decisions as you make your way to the city of Eden. Demonstrate how to open and read multiple lines/elements within a txt.file.
 
