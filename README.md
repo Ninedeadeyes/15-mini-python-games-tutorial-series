@@ -38,5 +38,21 @@ Who Dare Wins= A tactical dice game with a high score save function. Demonstrate
 
 The Road To Eden = Make hard decisions as you make your way to the city of Eden. Demonstrate how to open and read multiple lines/elements within a txt.file.
 
+If you want to 'expand' your learning. I would recommend the below github projects. I have listed from easiest to hardest. Enjoy 
+
+https://github.com/Ninedeadeyes/Dungeon-of-the-Black-Dragon
+
+https://github.com/Ninedeadeyes/Tank-Battle-At-Ghost-Forest
+
+https://github.com/Ninedeadeyes/Quest-for-the-Golden-Turtle
+
+https://github.com/Ninedeadeyes/A-Grots-Life-2
+
+https://github.com/Ninedeadeyes/7-Dungeons-Deep
+
+
+
+
+
 https://www.youtube.com/watch?v=ike4KGsFM2Y
         
