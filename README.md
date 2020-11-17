@@ -40,9 +40,9 @@ The Road To Eden = Make hard decisions as you make your way to the city of Eden.
 
 If you want to 'expand' your learning. I would recommend the below github projects. I have listed from easiest to hardest. Enjoy 
 
-https://github.com/Ninedeadeyes/Dungeon-of-the-Black-Dragon
-
 https://github.com/Ninedeadeyes/Tank-Battle-At-Ghost-Forest
+
+https://github.com/Ninedeadeyes/Dungeon-of-the-Black-Dragon
 
 https://github.com/Ninedeadeyes/Quest-for-the-Golden-Turtle
 
