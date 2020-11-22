@@ -46,7 +46,7 @@ if evil==1:
     print ("Even though you reach Eden, you are quickly arrested for crimes against humanity ")
 
 elif hard > soft:
-    print ("Even though you reach Eden, your crew abandon you for being too cruel")
+    print ("Even though you reach Eden, your crew abandons you for being too cruel")
 
 elif soft > hard:
     print ("You fail to reach Eden. You wasted too much time along the way")
