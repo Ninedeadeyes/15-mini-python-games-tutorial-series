@@ -48,8 +48,9 @@ https://github.com/Ninedeadeyes/Quest-for-the-Golden-Turtle
 
 https://github.com/Ninedeadeyes/A-Grots-Life-2
 
-https://github.com/Ninedeadeyes/7-Dungeons-Deep
+https://github.com/Ninedeadeyes/7-Dungeons-Deep  ( unmodulated version ) 
 
+https://github.com/Ninedeadeyes/GrimeLore-Land-of-the-Heretic-Hand
 
 
 Youtube Video 
