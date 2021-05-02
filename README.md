@@ -40,17 +40,18 @@ The Road To Eden = Make hard decisions as you make your way to the city of Eden.
 
 If you want to 'expand' your learning. I would recommend the below github projects. I have listed from easiest to hardest. Enjoy 
 
-https://github.com/Ninedeadeyes/Tank-Battle-At-Ghost-Forest
 
-https://github.com/Ninedeadeyes/Dungeon-of-the-Black-Dragon
+https://github.com/Ninedeadeyes/Dungeon-of-the-Black-Dragon         ( A 2d Ascii adventure/dungeon crawler game) 
 
-https://github.com/Ninedeadeyes/Quest-for-the-Golden-Turtle
+https://github.com/Ninedeadeyes/Tank-Battle-At-Ghost-Forest         ( A shootem up with 2 player options written with Turtle library ) 
 
-https://github.com/Ninedeadeyes/A-Grots-Life-2
+https://github.com/Ninedeadeyes/Quest-for-the-Golden-Turtle         ( A hack and slash dungeon crawler written with Turtle library ) 
 
-https://github.com/Ninedeadeyes/7-Dungeons-Deep  ( unmodulated version ) 
+https://github.com/Ninedeadeyes/A-Grots-Life-2                      ( A survival/crafting game wrttien with Tkinter Library ) 
 
-https://github.com/Ninedeadeyes/GrimeLore-Land-of-the-Heretic-Hand
+https://github.com/Ninedeadeyes/7-Dungeons-Deep                     ( An action rpg written with Turtle Library  ) 
+
+https://github.com/Ninedeadeyes/GrimeLore-Land-of-the-Heretic-Hand  ( A 2d Ascii open world rpg) 
 
 
 Youtube Video 
