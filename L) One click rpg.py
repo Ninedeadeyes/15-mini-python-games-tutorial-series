@@ -71,13 +71,13 @@ class Application(Frame):                          #Frame is a previously define
             self.power_ranking="The Cannon Fodder (Ready to die ? ) "  
 
         if self.level >4 and self.level  <6:
-            self.power_ranking="The Weakling Avenger (At least your tried )"
+            self.power_ranking="The Weakling Avenger (At least you tried )"
 
         if self.level >6 and self.level  <8:
             self.power_ranking="The Nice Guy (This is no compliment )"
 
         if self.level >8 and self.level  <10:
-            self.power_ranking="The Beta Warrior (At least you won't die first )"
+            self.power_ranking="The Beta Warrior (Well.. You won't die first, I guess )"
 
         if self.level >10 and self.level  <12:
             self.power_ranking="The Mighty Beta Warrior (Some nerds respect you )"
