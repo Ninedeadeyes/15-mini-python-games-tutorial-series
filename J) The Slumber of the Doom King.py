@@ -186,8 +186,10 @@ while alive==True:
             currentRoom = compass[newDir][currentRoom] # eg: compass[east][1] which is dic[key][nested key] will return value 2 which will be the new room/key
             print(newDir)  # This is just to demonstrate how 'return' works, can delete if you want 
       
-    else:
-            print ("There is no path in that direction")
+        else:
+    
+             print ("There is no path in that direction")
+    
         # If you find the exit 
         if  currentRoom ==12:
             print("Location: Exit Gate. You have found the exit, well done !!")
