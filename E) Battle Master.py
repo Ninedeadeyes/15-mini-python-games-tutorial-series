@@ -97,7 +97,7 @@ while True:
 
     
 
-    if defender1>=38 and farmer1>=15 and knight1>=55:
+    if defender1>=35 and farmer1>=15 and knight1>=50:
         player2_win()
 
     else:
