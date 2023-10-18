@@ -14,10 +14,10 @@ encounter1=False   # This is used so that unique encounter only happen once.
 # function that provides input from player 
 
 def input_direction():
-    direction = input("Which direction do you want to go? ")
+    direction = input("Which direction do you want to go?  ")
     direction=direction.lower()
     while direction not in ["north", "south", "east", "west", "exit"]:
-        direction = input("Invalid answer,which direction do you want to go? ")
+        direction = input("Invalid answer,which direction do you want to go?  ")
         direction=direction.lower()
 
     return direction   # When you execute input_direction it will return 'the direction' eg: north,south,east,west 
@@ -38,7 +38,7 @@ def jester():
     
         print ("You see a sad jester in the corner of the room")
         print ("He ask you a question")
-        question1=input("Can you spare me some life for some gold ? Y or N")
+        question1=input("Can you spare me some life for some gold ? Y or N  "  )
         question=question1.lower()
         
         if question=="y" or question=="yes":
@@ -198,6 +198,28 @@ while alive==True:
             break
 
 
+#so the world is set up like 
+
+# 1  2  3  4 
+# 5  6  7  8
+# 9  10 11 12
+
+#You begin at 1 since currentRoom = 1  If you go east you will go to 2 because 
+#compass[newDir][currentRoom] equals to compass[east][1] which will 
+#extract the key of 2  because ('east":  {1:2,')and then the new currentRoom becomes 2  
+
+#        if compass[newDir][currentRoom] != -1:         ( if the nested value is a -1 means there is no path ) 
+#        currentRoom = compass[newDir][currentRoom] 
+
+
+# If you then go south  then it will be compass[south][2] which will obtain 
+# the key 6  because ("south": {1:5,2:6,) and then the new currentRoom becomes 6 
+
+# You have then travelled from A to C on the map 
+
+#   A B x x
+#   x C x x
+#   x x x x
 
 
 #https://github.com/Ninedeadeyes/15-mini-python-games-
