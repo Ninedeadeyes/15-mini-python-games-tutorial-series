@@ -5,17 +5,17 @@ The games cover the 'basic topics' of python and some intermediate topics like O
 
 I have done some 'notes' to explain some of the code but if you do not understand something best thing to do is to google it. I have also added a few bonus games that doesn't fit within the collection for additional examples and reference.  
 
-A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED and IN BUILT functions/methods, also demonstrate 'IMPORT' from 'RANDOM' module.   
+A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED and IN BUILT functions, VARIABLES and GLOBAL keyword to interect with variables outside function scope.  
 
-B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function and WHILE loop.
+B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, WHILE loop, BREAK statement  and IF ELSE STATEMENTS.
 
 C) The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
 
-D) Mini gamble = A simple 'Shell' game where you make bets on which pot the stone is under. Implement INT function converting 'string' to integer as well as BREAK statement. 
+D) Mini gamble = A simple 'Shell' game where you make bets on which pot the stone is under. Implement INT function converting 'string' to integer. 
 
-E) Battle Master= Build the optimal army to defeat the dreaded orcs. Demonstrate how to use GLOBAL Function to interact with global variable within a function. Implement the use of TRY and EXCEPT statements
+E) Battle Master= Build the optimal army to defeat the dreaded orcs. Implement the use of TRY and EXCEPT statements
 
-F) Blood Pit= Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use data structure (LIST) to interact with variables within a function. Demonstrate a user defined function with multiple parameters.  
+F) Blood Pit= Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use data structure (LIST) to interact with variables within a function. Demonstrate a user defined function with multiple arguments.  
 
 G) Dungeon Hack  = an adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run. Using FOR LOOP.
 
