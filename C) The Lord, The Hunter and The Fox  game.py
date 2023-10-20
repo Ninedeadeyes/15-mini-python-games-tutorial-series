@@ -1,4 +1,15 @@
 import random
+
+# List 
+
+# Lists are used to store multiple items in a single variable, eg :  list1= ["fox","hunter","lord"]  
+
+
+# elif statement 
+
+#The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
+
+
 list1= ["fox","hunter","lord"]  
 
 print("This is an alternative game of rock, paper and scissors ")
@@ -21,17 +32,18 @@ while win:
         print("computer choose " , cpu)
         print("You lose")
         lose_count+=1
-       
-    elif user=="exit":
-        print("Goodbye")
-        print("you won, ", win_count,"times.", "You lost,",lose_count,"times.")
-        win=False
-        
+
     elif user==cpu:
         print("computer choose " , cpu)
         print("It is a draw")
 
-    elif user != ("fox") or ("hunter")or ("lord"):
+       
+    elif user=="exit":
+        print("Goodbye")
+        print("you won, ", win_count,"times.", "You lose,",lose_count,"times.")
+        win=False
+        
+    else:
         print("not valid")
         
 

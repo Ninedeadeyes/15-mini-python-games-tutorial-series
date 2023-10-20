@@ -27,10 +27,6 @@ def enemy(name,a,b):
             print("You have slained the "+name)
             break
         
-            
-        
-
-
 while True:
     
     print("Welcome to the blood pit, choose your opponent!! ")
@@ -38,9 +34,9 @@ while True:
     choose=choose.upper()
 
     while choose is "GOBLIN" or "ORC" or "PIT FIGHTER" or "RED DRAGON":
+        print("your opponent is a...")
 
         if choose==("GOBLIN"):
-            print("You fight")
             enemy("Goblin",200,20)
             rep+=10
             hero_max_health+=20
@@ -52,10 +48,7 @@ while True:
             print("Totol Reputation: "+ str(rep))
             break
             
-
-
         elif choose==("ORC"):
-            print("You fight")
             enemy("Orc",400,60)
             rep+=50
             hero_max_health+=40
@@ -69,7 +62,6 @@ while True:
         
 
         elif choose==("PIT FIGHTER"):
-            print("You fight")
             enemy("Pit Fighter",500,200)
             rep+=100
             hero_max_health+=60
@@ -82,7 +74,6 @@ while True:
             break
 
         elif choose==("RED DRAGON"):
-            print("You fight")
             enemy("Red Dragon",1500,400)
             rep+=300
             hero_max_health+=70
@@ -108,9 +99,6 @@ while True:
         print("You beat the game in turn "+ str(turn_counter))
         input("You win, press enter to exit")
         break 
-    
-
-
     
 
 #https://github.com/Ninedeadeyes/15-mini-python-games-
