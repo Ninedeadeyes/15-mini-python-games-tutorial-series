@@ -7,7 +7,7 @@ import random     # This 'import' the random module which will be used in the pr
 #Variables 
 
 # A variable is a container for storing data values. It is like a box to store something 
-# example :  win=0 is a variable. The variable win stores how many time you win in the game. 
+# example :  win=0 is a variable. The variable 'win' stores how many time you win in the game. 
 
 
 # Functions 
@@ -58,7 +58,7 @@ def game():
         global win
         win+=1
 
-    print("game won:  "+str( win)+"lose:  "+str(lose))
+    print("game won:  "+str( win)+"lose:  "+str(lose))  # We need to convert the variables to string format for us to print them  
 
     intro()
     game()
