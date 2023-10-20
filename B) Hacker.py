@@ -1,4 +1,20 @@
 
+# While loop 
+
+# Python while loop is used to run a block code until a certain condition is met.
+# In the below example while password is not 'bob' it will keep playing the looping until
+# either password is 'bob' or on the 8th attempt with the 'break' keyword which will break 
+# the loop
+
+# If statement 
+
+#The if statement is the most simple decision-making statement. It is used to decide whether a certain statement
+# or block of statements will be executed or not.
+
+# else statement 
+
+#An else statement contains the block of code that executes 
+#if the conditional expression in the if or ELIF statement resolves to 0 or a FALSE value
 
 print("You are a hacker and attempting to hack Robert's bank account")
 print("                                                                   ")
@@ -10,7 +26,6 @@ print("                                                                   ")
 input("                 press enter to continue")
     
 print ("Welcome to Catwest Security System")
-
 
 
 raw = input("Enter the Password ")  
@@ -33,20 +48,24 @@ while password != 'bob':    # When password is 'bob' this will break
    if attempt == 5:
       print(" Tip( Relates to his name)")
 
+   if attempt == 7:
+      print(" Tip( Ends with a 'B')")
+
    if attempt == 8:
-       print("too many attempts")
-       input("press enter to quit")
-       quit()
+       break
 
    raw = input("Enter the Password ")
 
    password=raw.lower()     
        
-   
-print("Access granted")
-   
+if attempt !=8:
+   print("Access granted")
+   input("press enter to exit")  # In theory you can click any button to exit 
 
-input("press enter to exit")  # In theory you can click any button to exit 
+else:
+   print("too many attempts")
+   input("press enter to quit")
+
 
 
       # Examples of Python operators  

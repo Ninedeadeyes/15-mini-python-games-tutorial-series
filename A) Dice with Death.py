@@ -1,20 +1,31 @@
 import random     # This 'import' the random module which will be used in the programme 
                   # This will provide acces additional functions/modules within the module. From example : random.randint 
+ 
 
 
+
+#Variables 
+
+# A variable is a container for storing data values. It is like a box to store something 
+# example :  win=0 is a variable. The variable win stores how many time you win in the game. 
+
+
+# Functions 
 
 # A function is a block of organized,
-# reusable code that is used to perform a single,
-# related action
-
+# reusable code that is used to perform a single, related action
+# They are like little machines that needs to be switched on (invoked/called) before they do anything 
 
 # def intro() is a user defined function (created by the user)
 
-# print and input are inbuilt functions.
+# print and input are examples of inbuilt functions.
 
 
+win=0         
+lose=0
 
 def intro():
+
     print("You are playing dice with death")
     print("Win and live another day, lose and your soul is doomed")
 
@@ -22,9 +33,9 @@ def intro():
                                        # the info is lost. In this instance it is used as to 'pause' 
 def game():
     print("death rolls first")
-    death_roll=random.randint(1,12)   # 'randint' is an inbuilt method of random
-    print( "death rolls",death_roll)  # A method is a function that is tied
-    input("press enter to continue")  # to an object, in this case it is 'random' 
+    death_roll=random.randint(1,12)   # 'randint' is an example of a method .A method is a function that is tied
+    print( "death rolls",death_roll)  #  to an object ( which is random)
+    input("press enter to continue")  
     your_roll=random.randint(1,12)
     print("you roll",your_roll)
     input("press enter to continue")
@@ -37,16 +48,26 @@ def game():
     if death_roll>your_roll:
         print("You lose the game and your life")
         input("press enter to play again")
-        intro()
-        game()
+        global lose         # We use the global keyword to read and write a global variable inside a function.
+        lose+=1
+        
 
     if your_roll>death_roll:
         print("You win and live another day")
         input("press enter to play again")
-        intro()
-        game()
+        global win
+        win+=1
 
-intro()                                 # A function will need to be 'called' before it does anything, eg: intro(),game()  
+    print("game won:  "+str( win)+"lose:  "+str(lose))
+
+    intro()
+    game()
+
+
+
+
+
+intro()                                 # A function will need to be 'called'/invoked before it does anything, eg: intro(),game()  
 game()                                  
 
     
