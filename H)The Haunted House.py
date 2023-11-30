@@ -2,12 +2,9 @@
 
 def showInstructions():
     print('''
-
-
                     The Haunted House
 
 Escape the house with its riches but beware of the evil undead !!  
-
 
 Commands:
 
@@ -33,8 +30,6 @@ def showStatus():
     print('You see a ' + rooms[currentRoom]['item'])
   print("---------------------------")
 
-
-    
 inventory = []
 
 monster=[]
@@ -69,10 +64,6 @@ rooms = {
               },        
          }
 
-# Dictionary 
-
-
-
 currentRoom = 'Hall'
 
 showInstructions()
@@ -87,7 +78,8 @@ while True:
     
   move = move.lower().split()   # lower case everything and split will turn a string into a list hence  ' get shotgun' = move =[get,shotgun]
 
-  if move[0]=="shoot":    # acquire the value from index 0 of the list of 'move'. In this case if it is shoot  
+  if move[0]=="shoot":    # acquire the value from index 0 of the list of 'move'. In this case if it is shoot 
+
       if "monster"in rooms[currentRoom] and move[1] in rooms[currentRoom]['monster'] and "shotgun" in inventory :
           del rooms[currentRoom]['monster']
           print( "you killed the", move[1])
@@ -96,10 +88,7 @@ while True:
       else:
           print("you cannot attack " )
           
-
-      
   if move[0]=="use":
-      
       
       if "bandage" in inventory and move[1]== "bandage":
           heal=40
@@ -109,20 +98,18 @@ while True:
 
       elif "key" in inventory and move[1]== "key" and "golden_crown" in inventory and currentRoom=="Garden":     
          print("you escape with the loot, you retire in style, you win!!  ")
+         input("Press Enter to Exit")
          break    
               
           
       elif "key" in inventory and move[1]== "key" in inventory and currentRoom=="Garden":
          print("you escape the house but die a pauper, you lose ")
+         input("Press Enter to Exit")
          break
-
-      
 
       else:
           print("can't use that")
 
-      
-    
   if move[0] == 'go':
       if move[1] in rooms[currentRoom]:
           currentRoom = rooms[currentRoom][move[1]]    # acquire the new room (the nested value) from the 'direction'(the nested key) 
@@ -151,6 +138,7 @@ while True:
 
   if health <= 0:
       print("you are dead")
+      input("Press Enter to Exit")
       break
         
         
