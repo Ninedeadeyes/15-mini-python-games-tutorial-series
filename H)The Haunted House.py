@@ -6,7 +6,7 @@ def showInstructions():
 
 Escape the house with its riches but beware of the evil undead !!  
 
-Commands:
+Commands:  
 
   use [item] eg: use key 
   
@@ -15,6 +15,8 @@ Commands:
   go [direction] eg: go south
   
   get [item] eg: get bandage
+  
+  commands ( To view list of commands) 
 
 ''')
     
@@ -117,15 +119,36 @@ while True:
       else:
           print('You can\'t go that way!')
 
-  if move[0] == 'get' :
-          
-      if 'item' in rooms[currentRoom] and move[1] in rooms[currentRoom]['item']:
-          inventory += [move[1]]
-          print(move[1] + ' got!')
-          del rooms[currentRoom]['item']
-     
-      else:
-          print("Can\'t get that")
+  if move[0] == 'get':
+    if 'item' in rooms[currentRoom] and rooms[currentRoom]['item'] == move[1]:  # move[1] is whatever you type  '== move[1]'  make sure you are typing correctly before gaining the item. 
+        inventory += [rooms[currentRoom]['item']]
+        print(rooms[currentRoom]['item'] + ' got!')
+        del rooms[currentRoom]['item']
+    else:
+        print("Can't get that")
+  
+  if move[0] == 'commands':
+    print('''
+Commands:  
+
+  use [item] eg: use key 
+  
+  shoot[monster] eg: shoot zombie
+   
+  go [direction] eg: go south
+  
+  get [item] eg: get bandage
+  
+  commands ( To view list of commands) 
+
+''')
+      
+
+      
+
+
+
+
         
   if 'zombie' in rooms[currentRoom]['monster']:
       print("A zombie attack you !!!")
@@ -140,9 +163,18 @@ while True:
       print("you are dead")
       input("Press Enter to Exit")
       break
-        
-        
-        
+
+
+
+#              Map 
+
+#            BedRoom
+
+#             Hall             Dining Room
+
+#            Kitchen   ||        Garden  
+
+
  # A Dictionary will have a value and a key and you will be able to 'extract the 'value from the key.  
 
 #computer = {
@@ -159,5 +191,8 @@ while True:
 # because the code currentRoom = rooms[currentRoom][move[1]]  will equate to rooms[Hall][north] and the 'value' of the nested key 'north' is 'Bed Room
 # hence currentRoom becomes 'Bed Room'. So in conclusion  dictionary[key][nested key] to extract nested value 
 
+
+
+#
 
 #https://github.com/Ninedeadeyes/15-mini-python-games-
