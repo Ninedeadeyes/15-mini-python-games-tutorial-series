@@ -16,7 +16,7 @@ Commands:
   
   get [item] eg: get bandage
   
-  commands ( To view list of commands) 
+  commands ( To view a list of commands) 
 
 ''')
     
@@ -139,16 +139,9 @@ Commands:
   
   get [item] eg: get bandage
   
-  commands ( To view list of commands) 
+  commands ( To view a list of commands) 
 
 ''')
-      
-
-      
-
-
-
-
         
   if 'zombie' in rooms[currentRoom]['monster']:
       print("A zombie attack you !!!")
@@ -166,12 +159,12 @@ Commands:
 
 
 
-#              Map 
+#            MAP LAYOUT 
 
 #            BedRoom
-
-#             Hall             Dining Room
-
+#              ^
+#             Hall     >        Dining Room
+#              v                   v
 #            Kitchen   ||        Garden  
 
 
