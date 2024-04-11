@@ -51,7 +51,7 @@ https://github.com/Ninedeadeyes/Quest-for-the-Golden-Turtle         ( A hack and
 
 https://github.com/Ninedeadeyes/7-Dungeons-Deep                     ( An action rpg written with Turtle Library  ) 
 
-https://github.com/Ninedeadeyes/GrimeLore-Land-of-the-Heretic-Hand  ( A 2d Ascii open world rpg) 
+https://github.com/Ninedeadeyes/GrimLore-Land-of-the-Heretic-Hand  ( A 2d Ascii open world rpg) 
 
 
 Youtube Video 
