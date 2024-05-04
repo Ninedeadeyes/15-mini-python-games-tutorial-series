@@ -1,8 +1,5 @@
 import random     # This 'import' the random module which will be used in the programme 
                   # This will provide acces additional functions/modules within the module. From example : random.randint 
- 
-
-
 
 #Variables 
 
@@ -19,7 +16,6 @@ import random     # This 'import' the random module which will be used in the pr
 # def intro() is a user defined function (created by the user)
 
 # print and input are examples of inbuilt functions.
-
 
 win=0         
 lose=0
@@ -44,31 +40,29 @@ def game():
         print("you will need to play again")
         game()
 
-
     if death_roll>your_roll:
         print("You lose the game and your life")
-        input("press enter to play again")
         global lose         # We use the global keyword to read and write a global variable inside a function.
         lose+=1
         
 
     if your_roll>death_roll:
         print("You win and live another day")
-        input("press enter to play again")
         global win
         win+=1
 
-    print("game won:  "+str( win)+"lose:  "+str(lose))  # We need to convert the variables to string format for us to print them  
+    print("game won:  "+str( win)+" lose:  "+str(lose))  # We need to convert the variables to string format for us to print them  
+    play_again = input("Play again? (yes/no)")
+    play_again= play_again.lower()
 
-    intro()
-    game()
+    if play_again =="no":                               # Simple example of if, else statement.  If you type in 'no' it will quit the game
+        input("Good bye, press enter to quit ")         # 'else' it will reinvoke the into and game function hence repeating the game        
 
-
-
-
+    else:
+        intro()                              
+        game()
 
 intro()                                 # A function will need to be 'called'/invoked before it does anything, eg: intro(),game()  
 game()                                  
 
-    
 #https://github.com/Ninedeadeyes/15-mini-python-games-
