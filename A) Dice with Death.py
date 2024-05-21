@@ -56,7 +56,7 @@ def game():
     play_again= play_again.lower()
 
     if play_again =="no":                               # Simple example of if, else statement.  If you type in 'no' it will quit the game
-        input("Good bye, press enter to quit ")         # 'else' it will reinvoke the into and game function hence repeating the game        
+        input("Good bye, press enter to quit ")         # 'else' it will reinvoke the intro and game function hence repeating the game        
 
     else:
         intro()                              
