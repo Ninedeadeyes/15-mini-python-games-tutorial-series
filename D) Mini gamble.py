@@ -1,7 +1,5 @@
 import random 
 
-
-
 def dice(): 
     total = 120 
     game = "Y" 
@@ -41,8 +39,6 @@ def dice():
             print (" final amount = ", total, "Gold")
             input("Good bye, press enter to escape")
 
-
 dice()
-
 
 #https://github.com/Ninedeadeyes/15-mini-python-games-
