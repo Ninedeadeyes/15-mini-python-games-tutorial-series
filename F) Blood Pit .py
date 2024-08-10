@@ -12,7 +12,6 @@ def enemy(name,a,b):
     hh= hero_health[0]          # Within a 'list' the first item will be in [0] whilst the second will be in [1].
     hp= hero_power[0]           # If hero's health wasn't in a list, the enemy function would not acknowledge it 
     while hh>0 or health>0:
-
         (hh)-=(power)
         (health)-=(hp)
         print("The "+name+" attack you.Your health is "+str(hh))
@@ -28,7 +27,6 @@ def enemy(name,a,b):
             break
         
 while True:
-    
     print("Welcome to the blood pit, choose your opponent!! ")
     choose=input( "Please select goblin, orc, pit fighter or red dragon: ")
     choose=choose.upper()
@@ -83,10 +81,8 @@ while True:
             print("You become more vicious for every red dragon you face")
             print("you gain some reputation for the fight")
             print("Totol Reputation: "+ str(rep))  
-            
             break
             
-
         else:
             print("Try again")
             break
@@ -100,7 +96,6 @@ while True:
         input("You win, press enter to exit")
         break 
     
-
 #https://github.com/Ninedeadeyes/15-mini-python-games-
    
 
