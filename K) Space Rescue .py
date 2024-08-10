@@ -3,18 +3,12 @@ import random
 import time 
 
 # set up screen 
-
 turtle.ht()
 turtle.setup(950,950)
 turtle.title("Space Rescue")
 turtle.bgcolor("black")
-
-#This saves memory
-turtle.setundobuffer(0)
-#This speeds up drawing
-turtle.tracer(0)
-
-
+turtle.setundobuffer(0)  #This saves memory
+turtle.tracer(0)  #This speeds up drawing
 
 class Game():
     def __init__(self):                     # All class will have a method __init__ which provide instructions on what arguments is needed, example below at *
@@ -33,8 +27,6 @@ class Game():
         self.pen.penup()
         self.pen.ht()
 
-
-
 class Pen(turtle.Turtle):              # Example of class inheritance, inheriting from the parent 'turtle.Turtle' 
     def __init__(self):                # The 'child' class (PEN)  inherit the properties and methods from the Parent class (turtle.Turtle) 
         turtle.Turtle.__init__(self)   #This line of code is needed to keep the inheritance of the parent's __init__() function otherwise 
@@ -49,7 +41,6 @@ class Pen(turtle.Turtle):              # Example of class inheritance, inheritin
         self.pendown()
         self.penup()
 
-
     def you_lose(self):
         self.ht()
         self.up()
@@ -58,7 +49,6 @@ class Pen(turtle.Turtle):              # Example of class inheritance, inheritin
         msg = ("""
         You lose, final points:%s""") %(player1.points)       
         self.write(msg, font=("Arial", 16, "normal"))
-
 
     def show_points1(self):
         self.ht()
@@ -76,10 +66,8 @@ class Pen(turtle.Turtle):              # Example of class inheritance, inheritin
         self.color("white")
         msg = "Points:%s" %(player1.points)        
         self.write(msg, font=("Arial", 16, "normal"))
-
-
+        
 class Sprite(turtle.Turtle):
-
     def __init__(self, shape, color, startx, starty):
         super().__init__()     # By using the super() function instead of turtle.Turtle.__init__() , you do not have to use the name of the parent element, 
         self.speed(0)          # it will automatically inherit the methods and properties from its parent.
@@ -92,7 +80,6 @@ class Sprite(turtle.Turtle):
 
     def move(self):
         self.fd(self.speed)
-        
                                      #Boundary detection
         if self.xcor() > 390:
             self.setx(390)
@@ -123,7 +110,6 @@ class Sprite(turtle.Turtle):
         self.goto(9000,9000)
         self.hideturtle()
 
-
 class Player(Sprite):
     def __init__(self, shape, color, startx, starty):
         super().__init__(shape, color, startx, starty)   # Because of super() we don't need
@@ -133,11 +119,9 @@ class Player(Sprite):
     def turn_left(self):                                       # Any difference will need to be alter eg: self.speed
         self.lt(45)
         
-        
     def turn_right(self):
         self.rt(45)
        
-
     def accelerate(self):
         if self.speed==2:
             pass
@@ -149,14 +133,12 @@ class Player(Sprite):
             pass
         else:
             self.speed -= 1
-            
-
+        
 class Ship(Sprite):
     def __init__(self, shape, color, startx, starty):
         super().__init__(shape, color, startx, starty)
         self.speed = 0
         self.setheading(random.randint(0,360))
-
         
 class Enemy(Sprite):
     def __init__(self, spriteshape, color, startx, starty):
@@ -165,10 +147,7 @@ class Enemy(Sprite):
         self.setheading(random.randint(0,360))
 
 game = Game()  #call game function 
-
 game.draw_border()  # draw border 
-
-
 player1 = Player(("triangle"),"blue",-380,-380)
 
 turtle.onkey(player1.turn_left, "Left")
@@ -176,20 +155,15 @@ turtle.onkey(player1.turn_right, "Right")
 turtle.onkey(player1.accelerate, "Up")
 turtle.onkey(player1.decelerate, "Down")
 
-
 turtle.listen()
-
 points1=Pen()
 points1.show_points1()
 rules=Pen()
 rules.show_rules()
-
-
 ship=[]
     
 for shi in range(3):
     ship.append(Ship("circle","red",random.randint(-370,370),random.randint(-370,370)))
-
 
 maxenemies= random.randint(10,16)
 
@@ -197,7 +171,6 @@ enemies =[]
 for i in range(maxenemies):
     enemies.append(Enemy("square", "grey",0, 0))
     enemies[i].setposition(random.randint(-300,300),random.randint(-300,300))
-
 
 #Game loop
 while True:
@@ -214,9 +187,6 @@ while True:
                 time.sleep(5)
                 break
             
-
-
-
     for shi in range (3):
         if player1.is_collision(ship[shi]):
            x = random.randint(-390, 390)
@@ -224,14 +194,10 @@ while True:
            ship[shi].goto(x, y)
            player1.points+=100
            points1.update_points1()
-
-
+            
     turtle.update()
 
-
 # *__init__ Example
-
-
 
 #class Computer():
 #    def __init__(self, computer, ram, ssd):
