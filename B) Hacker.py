@@ -2,7 +2,9 @@
 #Variables 
 
 # A variable is a container for storing data values. It is like a box to store something 
-# example :  attempt=0 is a variable. The variable 'attempt' stores how many times you attempted the password. 
+# example :  attempt=0 is a variable. The variable 'attempt' stores how many times you attempted the password.  
+# raw is also a variable that is attached to the inbuilt function 'input' which means anything you type when it request 
+# the password it will store it into 'raw'. 
 
 # While loop 
 
