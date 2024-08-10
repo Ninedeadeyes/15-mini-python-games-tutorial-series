@@ -7,7 +7,7 @@ I have done some 'notes' to explain some of the code but if you do not understan
 
 A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions and IF STATEMENTS  
 
-B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, Variables, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
+B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, VARIABLES, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
 
 C) The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
 
