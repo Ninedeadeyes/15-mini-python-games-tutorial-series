@@ -1,12 +1,10 @@
 import os
 import random
 
-
 turn=True
 game=True
 counter=0
 goal=0
-
 numberlist1=[0,7]
 numberlist2=[1,2]
 
@@ -35,7 +33,6 @@ while game:
           while turn:
                decide=input("Pick dice(1,2,3 or 4)")
 
-
                if decide==("1"):
                     dice=random.randint(2,5)
                     break
@@ -57,8 +54,6 @@ while game:
                     
                else:
                     print ("Wrong choice")
-
-              
           
           input("press enter to roll dice" )
           print("you rolled a",dice)
@@ -78,10 +73,8 @@ while game:
           print("Sorry you went over 21")
           input("Press enter to exit")
           break
-
-
-     else:
-                    
+          
+     else:          
           new_score=counter
           print("You score",new_score)
 
@@ -109,8 +102,6 @@ while game:
                    input("Press enter to exit")
                    break
          
-               
-
           else:
               print("You did not beat the previous highest score of", high_score, "by ",old_name)
               again=input("play again? Y/N")
@@ -122,6 +113,5 @@ while game:
               else:
                     input("Press enter to exit")
                     break
-         
-         
+                   
 #https://github.com/Ninedeadeyes/15-mini-python-games-
