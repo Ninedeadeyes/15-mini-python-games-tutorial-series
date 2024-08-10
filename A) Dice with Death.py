@@ -1,6 +1,13 @@
 import random     # This 'import' the random module which will be used in the programme 
                   # This will provide acces additional functions/modules within the module. From example : random.randint 
 
+
+#Variables 
+
+# A variable is a container for storing data values. It is like a box to store something 
+# example :  death_roll is a variable. A dice roll between 1 to 12 will be stored within the variable 'death_roll'
+# In the next game 'Hacker' I will be providing more examples of variables. 
+
 # Functions 
 
 # A function is a block of organized,
