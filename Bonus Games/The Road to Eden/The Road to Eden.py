@@ -9,8 +9,6 @@ Info=line.split("#")            # This will split the line/list by each # eg: In
 
 Match=[]                        # An empty list
 
-
-
 while Info[0]!= "END":               
     print(Info[0])
     print("       ")
@@ -18,7 +16,6 @@ while Info[0]!= "END":
     print("       ")
     guess=input("(A or B): ")
     guess=guess.upper()
-
 
     if guess == "A":
         Match.append(Info[2])
@@ -33,14 +30,9 @@ while Info[0]!= "END":
     else:
         guess=input("Number not allowed,try again ")
                          
-
 hard=Match.count("H")   # Add up the number of 'H' eg if there is 3xH, hard=3
-
 soft=Match.count("S")
-
 evil=Match.count("E")
-
-
 
 if evil==1:
     print ("Even though you reach Eden, you are quickly arrested for crimes against humanity ")
@@ -53,7 +45,6 @@ elif soft > hard:
 
 elif soft==hard:
     print ("Congratulations, you reach Eden on time. Your men celebrate your victory")
-
     
  #https://github.com/Ninedeadeyes/15-mini-python-games-
 
