@@ -2,8 +2,6 @@ from tkinter import*
 from tkinter import ttk   #ttk are actually separate files in tkinter, this updates the original with improved widgets.  
 import random
 
-
-
 class Application(Frame):                          #Frame is a previously defined class/widget designed to be a container for other widgets. Example of Class inheritance
     def __init__ (self,master):                    # 'master' is just the augment, in this example it will be root eg: Application(root) which is basically Tk() 
         Frame.__init__(self,master)                # This line of code is needed to keep the inheritance of the parent's __init__() function otherwise it will be overrided by the child's __init() function
@@ -26,7 +24,6 @@ class Application(Frame):                          #Frame is a previously define
         self.power_ranking=("The Village Punchbag (It's a job, i guess )")
         
     def create_widgets(self):
-
         self.bttn= Button(self)
         self.bttn["text"]="Explore"
         self.bttn["command"]= self.adventure
@@ -40,13 +37,8 @@ class Application(Frame):                          #Frame is a previously define
 
         self.stat_lb2=Label(self,text="Power ranking: Ready to begin your quest from zero to hero ? ")
         self.stat_lb2.grid(row=5,column=0,columnspan=2,sticky=W)
-
-    
-
-
     
     def adventure(self):
-
         adventure=random.choice(self.area)
         adventure1=str(adventure)
         encounter=random.choice(self.monster)
@@ -127,14 +119,6 @@ class Application(Frame):                          #Frame is a previously define
         if self.level >100 :
             self.power_ranking="God (We bow down to your greatness )"
 
-        
-
-            
-
-            
-        
-        
-
         story ="You explore the "
         story += adventure1
         story +="."
@@ -166,21 +150,12 @@ class Application(Frame):                          #Frame is a previously define
         stat+="    "
         stat+="LEVEL:"
         stat+=str(self.level)
-
-        
-        
-
         
         self.story_txt.delete(0.0,END)
         self.story_txt.insert(0.0,story)
-
         self.stat_lbl["text"]=stat
-
         self.stat_lb2["text"]=rank
         
-
-
-
 root = Tk()
 root.title(" One Click RPG ")
 root.geometry("380x150")
@@ -188,7 +163,6 @@ app=Application(root)
 
 root.mainloop()      # This is a method on the main window which we execute when we want to run our application.
                       #This method will loop forever, waiting for events from the user, until the user exits the program
-
 
 #https://github.com/Ninedeadeyes/15-mini-python-games-
 
