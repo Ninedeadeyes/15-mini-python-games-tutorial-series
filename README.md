@@ -5,7 +5,7 @@ The games cover the 'basic topics' of python and some intermediate topics like O
 
 I have done some 'notes' to explain some of the code but if you do not understand something best thing to do is to google it. I have also added a few bonus games that doesn't fit within the collection for additional examples and reference.  
 
-A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions and IF STATEMENTS  
+A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions,VARIABLES and IF STATEMENTS  
 
 B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, VARIABLES, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
 
