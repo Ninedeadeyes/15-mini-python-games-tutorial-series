@@ -1,15 +1,11 @@
 import random
 import time
 
-
 # Stats 
 health=100
 gold=0
 alive=True
 encounter1=False   # This is used so that unique encounter only happen once. 
-
-
-# Game Title :  The Slumber of the Doom King
 
 # function that provides input from player 
 
@@ -27,15 +23,10 @@ def nothing():
     pass
 
 def jester():
-
-
     
-    global encounter1   # If you do not use global the encounter within the function is consider a local variable
-                       # and you will have a "local variable referenced before assignment error" 
-
-    
+    global encounter1         # If you do not use global the encounter within the function is consider a local variable
+                              # and you will have a "local variable referenced before assignment error" 
     while encounter1==False: 
-    
         print ("You see a sad jester in the corner of the room")
         print ("He ask you a question")
         question1=input("Can you spare me some life for some gold ? Y or N  "  )
@@ -50,20 +41,12 @@ def jester():
             print("You lose 10 life ")
             print("You gain 300 gold")
             encounter1=True
-
             
         else:
             print("The Jester scream at you 'go away!' ")
             encounter1=True
     else:
         pass
-
-
-
-
-
-# Introduction 
-
 
 print ("                      The Slumber of the Doom King  ")
 print("                                                                                   ")
@@ -72,13 +55,7 @@ print("Direction: North/East/South/West/Quit")
 
 time.sleep(1.5)
 
-#function
-
-
-
-
 # Set up the Locations
-
 
 compass = { "north" : {1:-1,2:-1,3:-1,4:-1,5:1,6:2,7:3,8:4,9:5,10:6,11:7},
                  "east":  {1:2,2:3,3:4,4:-1,5:6,6:7,7:8,8:-1,9:10,10:11,11:12},
@@ -100,7 +77,6 @@ descr = {
              11: "Location: Servant Quarter. A skeleton lies on the floor, a sad sight",
              12: ""}
 
-
 # Unique events ( You can add different types of quests/storylines/characters for each location
 
 events = {
@@ -117,11 +93,7 @@ events = {
              11: nothing,
              12: nothing,} 
 
-
-
 currentRoom = 1
-
-
 
 # Game loop
 while alive==True:
@@ -130,14 +102,12 @@ while alive==True:
     print (descr[currentRoom])
     events[currentRoom]()
     
-    
     loot=random.randrange(1,20)
     loot1=str(loot)
     print ("you find",loot1,"gold")
     gold+=loot
     print ("Total gold:",gold)
     print("Life:",health)
-
 
     # See if you awake the Doom King or not 
     sleep=random.randint(1,9)
@@ -153,9 +123,7 @@ while alive==True:
             break
         else:
             print("Thankfully you escape and the King falls back into slumber")
-            
-            
-
+        
     elif sleep==1 or sleep==2:
         print("You hear the Doom King groan but then silence")
 
@@ -168,15 +136,9 @@ while alive==True:
     else:
         print( "The Doom King slumber..") 
 
-
-
-    # calling the function of user input, works because the 'return' function was used 
-    newDir = input_direction()
+    newDir = input_direction()   # calling the function of user input, works because the 'return' function was used 
     
-     
-
-    # If you wish to exit
-    if newDir == "quit":
+    if newDir == "quit":   # If you wish to exit
         print ("Good bye")
         break
     else:
@@ -187,7 +149,6 @@ while alive==True:
             print(newDir)  # This is just to demonstrate how 'return' works, can delete if you want 
       
         else:
-    
              print ("There is no path in that direction")
     
         # If you find the exit 
@@ -196,7 +157,6 @@ while alive==True:
             print("Total gold:",gold," can you do better next time?")
             input("Press enter to escape")
             break
-
 
 #so the world is set up like 
 
@@ -220,7 +180,6 @@ while alive==True:
 #   A B x x
 #   x C x x
 #   x x x x
-
 
 #https://github.com/Ninedeadeyes/15-mini-python-games-
 
