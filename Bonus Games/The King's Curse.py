@@ -3,8 +3,6 @@ goblin =False
 quest1=False
 potion=False
 
-
-
 print ("                    The King's Curse              ")
 print (" Art by eVil, Glory Moon, Dustin Slater and Joan Stark     ")
 print 
@@ -27,30 +25,20 @@ print ("""
             \   \__, \_     `~'     _/ .__/   /            
              `-._,-'   `-._______,-'   `-._,-'
 
-
-
 """)
 
-
-
-
 Name=input("What is your name brave adventurer ? ")
-
 print("Hello "+Name)
-
 print("Someone has turned the King into stone. Your Quest is to remove the curse !!!")
 
 while cure==False:
-
     print("                                    ")
     print("Where do you want to go ? (A,B,C or D ")
     print ("A) Castle  B) The Old Hags Hut  C) The Wild Forest  D) Fortress of Doom")
     Choice=input()
     Choice=Choice.lower()
-
-
+       
     if Choice=="a":
-
         print ("""
 
                                 -|             |-
@@ -66,24 +54,15 @@ _____----- |     ]              [ ||||||| ]              [     |
        _-_-|_____]--------------[_|||||||_]--------------[_____|-_-_
       ( (__________------------_____________-------------_________) )
 
-
-
-
-
-
               """)
 
         if potion==True:
-
             cure=True
             
         else:
             print("You go back to the castle with empty hands.")
             
-
-
     if Choice=="b":
-
         print("""
 
 
@@ -101,10 +80,6 @@ _____----- |     ]              [ ||||||| ]              [     |
     |_|__|__|_|    ||   ||
   /`  =======  `\__||_._||
 /`    =======            `\
-
-
-
-
 
 """)
 
@@ -146,7 +121,6 @@ _____----- |     ]              [ ||||||| ]              [     |
             ,####.
 /\/\/\/\/\/.######.\/\/\/\/\         
 
-
 """)
 
         if goblin==False:
@@ -157,11 +131,9 @@ _____----- |     ]              [ ||||||| ]              [     |
             if Help=="yes"or Help=="YES":
                 print ("You help the goblin, the goblin runs back home.")
                 goblin=True
-
-
+                   
         else:
             print("You see nothing of importance here, maybe you will go hunting later")
-
 
     if Choice=="d":
 
@@ -191,8 +163,6 @@ _____----- |     ]              [ ||||||| ]              [     |
                      |____//=======\\____|
                          //=========\\
 
-
-
 """)
         if quest1==True and potion == False:
 
@@ -205,7 +175,6 @@ _____----- |     ]              [ ||||||| ]              [     |
                 if Answer=="darkstone":
                     print("They allow you into the Fortress and you quickly locate the magical potion.")
                     potion=True
-
 
                 else:
 
@@ -231,18 +200,14 @@ _____----- |     ]              [ ||||||| ]              [     |
            |        |     
            |_________\    
 
-
                            """)
-
 
                     print("Press any button to exit the game")
                     input()
                     exit()
                     
-                    
         else:
             print("You arrive at the Fortress of Doom but with no purpose, you quickly leave.")
-
 
 print("You pour the magical potion over the King's stone body.")
 print("It has worked, the curse is removed.")
@@ -269,11 +234,8 @@ print("""
 
 """)
 
-
 input("press enter to exit")
         
-    
-
 #https://github.com/Ninedeadeyes/15-mini-python-games-
         
 
