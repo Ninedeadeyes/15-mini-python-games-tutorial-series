@@ -82,8 +82,7 @@ def game():
 
         print("Game over")
         play=input("play again Y/N ? : ")
-        play.lower()
-        if play == "y":
+        if play == "y" or"Y":
             game()
         else:
             print("good bye")
@@ -104,8 +103,7 @@ def game():
 
         print("Game over")
         play=input("play again Y/N ? : ")
-        play.lower()
-        if play == "y":
+        if play == "y" or"Y":
             game()
         else:
             print("good bye")

@@ -1,4 +1,9 @@
 
+#Variables 
+
+# A variable is a container for storing data values. It is like a box to store something 
+# example :  attempt=0 is a variable. The variable 'attempt' stores how many times you attempted the password. 
+
 # While loop 
 
 # Python while loop is used to run a block code until a certain condition is met.

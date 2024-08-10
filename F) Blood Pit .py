@@ -31,7 +31,7 @@ while True:
     choose=input( "Please select goblin, orc, pit fighter or red dragon: ")
     choose=choose.upper()
 
-    while choose is "GOBLIN" or "ORC" or "PIT FIGHTER" or "RED DRAGON":
+    while choose == "GOBLIN" or "ORC" or "PIT FIGHTER" or "RED DRAGON":
         print("your opponent is a...")
 
         if choose==("GOBLIN"):
