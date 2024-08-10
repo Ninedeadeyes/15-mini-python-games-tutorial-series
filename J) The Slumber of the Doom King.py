@@ -33,12 +33,12 @@ def jester():
         question=question1.lower()
         
         if question=="y" or question=="yes":
-            global life
+            global health
             global gold 
-            life=-10
+            health=-5
             gold=+300
             print("The Jester smile and say 'thank you'.")
-            print("You lose 10 life ")
+            print("You lose 5 life ")
             print("You gain 300 gold")
             encounter1=True
             

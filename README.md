@@ -5,9 +5,9 @@ The games cover the 'basic topics' of python and some intermediate topics like O
 
 I have done some 'notes' to explain some of the code but if you do not understand something best thing to do is to google it. I have also added a few bonus games that doesn't fit within the collection for additional examples and reference.  
 
-A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED and IN BUILT functions, VARIABLES and GLOBAL keyword to interect with variables outside function scope.  
+A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED and IN BUILT functions as well as IF STATEMENTS  
 
-B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, WHILE loop, BREAK statement  and IF ELSE STATEMENTS.
+B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, Variables, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
 
 C) The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
 
@@ -26,9 +26,9 @@ A good example of Modularity on a bigger project will be my open world rpg Grime
 
 J) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY,NESTED DICTIONARY and RETURN function. 
 
-K) One Click RPG= An Idle RPG. Using TUPLES data type, TKINTER GUI library and INHERITANCE CLASS  
+K) One Click RPG= An Idle RPG. Using TUPLES data type, Using TKINTER GUI library ( part of the standard library )
 
-L) Space Rescue = Rescue the red ships and avoid the rocks. Using TURTLE GRAPHICS library and INHERITANCE CLASS.  
+L) Space Rescue = Rescue the red ships and avoid the rocks. Using TURTLE GRAPHICS library ( part of the standard library )
 
 Bonus games 
 

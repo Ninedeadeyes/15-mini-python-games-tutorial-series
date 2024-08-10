@@ -12,7 +12,8 @@ def dice():
             print("You don't have the money, Please bet again")
             bbet = input("how much do you bet ?") 
             bet = int(bbet)
-        print ("""  \_1_/  \_2_/  \_3_/  """)
+
+        print (r"""  \_1_/  \_2_/  \_3_/  """)    #  Prefix the string with an r to treat it as a raw string, which tells Python not to interpret escape sequences within the string.
         guess= input("Which pot is the stone in ? : ")
         guess=int(guess)
         while guess >3:
