@@ -3,7 +3,6 @@ counter=0
 player1=0
 player2=0
 
-
 def player1_win():
     print("Orcs win the battle")
     global player1        # Generally speakin Global keyword is the worst 
@@ -13,10 +12,8 @@ def player2_win():        # Better methods is using data structure like list or 
     print("Humans win the battle")
     global player2
     player2+=1
-
-
+    
 while True:
-
     print("""The war between Orcs and Humans rage on forever
     "You are the new commander, you have 100 men which you have to
     allocate to the apprioate position to win the war """)
@@ -28,17 +25,14 @@ while True:
         try:
             int(knight)
             break
-
         except:        
             print("This is not a number")
-
 
     while True: 
         farmer=input("how many Farmers ?")
         try:
             int(farmer)
             break
-
         except:
             print("This is not a number")
                 
@@ -48,30 +42,19 @@ while True:
         try:
             int(defender)
             break
-
         except:
             print("This is not a number")
 
-
-    
     tog=int(defender)+int(farmer)+int(knight)
     
     if tog>100:
         print("You have allocated over 100")
-
     else:
         print("You have",str(defender),"Defenders.You have",str(farmer),"Farmers and"
               ,str(knight),"Knights")
         break 
 
-            
-    
-     
-
-
 while True:
-    
-
     while True:
         counter+=1
         print("The battle rages on and on ..")
@@ -81,25 +64,19 @@ while True:
         print("...")
         time.sleep(.5)
         print("...")
-
         if counter==3:
             break
 
     print("A victor has been decided")
-
     x=random.randint(1,3)
-
     time.sleep(x)
 
     defender1=int(defender)+random.randint(1,15)
     farmer1=int(farmer)+random.randint(1,10)
     knight1=int(knight)+random.randint(1,15)
 
-    
-
     if defender1>=35 and farmer1>=15 and knight1>=50:
         player2_win()
-
     else:
         player1_win()
 
@@ -108,23 +85,14 @@ while True:
 
     if player1==5:
         print("""The Orcs has won the war. You have been defeated !!""")
-        
         break
-
-    
-        
 
     if player2==5:
         print("The Humans has won the war, congratulations !!")
-        
         break
-
 
 input("Press enter to exit")
         
-        
-
-
 #https://github.com/Ninedeadeyes/15-mini-python-games-
   
 
