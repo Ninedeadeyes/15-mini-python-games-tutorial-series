@@ -7,7 +7,7 @@ def dice():
     while (game == "Y"or game =="y"):
         print (" you have = ", total, "Gold")
         bbet = input("how much do you bet ? : ") 
-        bet = int(bbet)  # Turns the input into a 'number value' from a string value 
+        bet = int(bbet)  # Turns the input into a 'number value' from a string value because a string can't interact with an integer (whole number)
         while bet > total:
             print("You don't have the money, Please bet again")
             bbet = input("how much do you bet ?") 

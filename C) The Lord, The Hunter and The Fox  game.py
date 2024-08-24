@@ -1,15 +1,5 @@
 import random
 
-# List 
-
-# Lists are used to store multiple items in a single variable, eg :  list1= ["fox","hunter","lord"]  
-
-
-# elif statement 
-
-#The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
-
-
 list1= ["fox","hunter","lord"]  
 
 print("This is an alternative game of rock, paper and scissors ")
@@ -46,6 +36,17 @@ while win:
     else:
         print("not valid")
         
+# List 
 
-   #https://github.com/Ninedeadeyes/15-mini-python-games-
+# List is a Data Structure (a specialized format for organizing, processing, retrieving and storing data. )
+# Lists are used to store multiple items in a single variable, eg :  list1= ["fox","hunter","lord"]  
+
+# Conditional Statements
+
+# elif statement 
+
+#The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
+# At the above example if it is none of the decisions it will try the condition 'else' 
+
+#https://github.com/Ninedeadeyes/15-mini-python-games-
 

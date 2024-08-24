@@ -1,28 +1,3 @@
-
-#Variables 
-
-# A variable is a container for storing data values. It is like a box to store something 
-# example :  attempt=0 is a variable. The variable 'attempt' stores how many times you attempted the password.  
-# raw is also a variable that is attached to the inbuilt function 'input' which means anything you type when it request 
-# the password it will store it into 'raw'. 
-
-# While loop 
-
-# Python while loop is used to run a block code until a certain condition is met.
-# In the below example while password is not 'bob' it will keep playing the looping until
-# either password is 'bob' or on the 8th attempt with the 'break' keyword which will break 
-# the loop
-
-# If statement 
-
-#The if statement is the most simple decision-making statement. It is used to decide whether a certain statement
-# or block of statements will be executed or not.
-
-# else statement 
-
-#An else statement contains the block of code that executes 
-#if the conditional expression in the if or ELIF statement resolves to 0 or a FALSE value
-
 print("You are a hacker and attempting to hack Robert's bank account")
 print("                                                                   ")
 input("                 press enter to continue")
@@ -33,7 +8,6 @@ print("                                                                   ")
 input("                 press enter to continue")
     
 print ("Welcome to Catwest Security System")
-
 
 raw = input("Enter the Password ")  
 
@@ -73,6 +47,26 @@ else:
    print("too many attempts")
    input("press enter to quit")
 
+#Variables 
+
+# A variable is a container for storing data values. It is like a box to store something 
+# example :  attempt=0 is a variable. The variable 'attempt' stores how many times you attempted the password.  
+# raw is also a variable that is attached to the inbuilt function 'input' which means anything you type when it request 
+# the password it will store it into 'raw'. 
+
+# While loop 
+
+# Python while loop is used to run a block code until a certain condition is met.
+# In the below example while password is not 'bob' it will keep playing the looping until
+# either password is 'bob' or on the 8th attempt with the 'break' keyword which will break 
+# the loop
+
+# Conditional Statements
+
+# else statement 
+
+#An else statement contains the block of code that executes 
+#if the conditional expression in the if or ELIF statement resolves to 0 or a FALSE value
 
 
       # Examples of Python operators  
