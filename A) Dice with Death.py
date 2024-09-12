@@ -1,6 +1,6 @@
 import random, sys     # This 'import' the random and sys module which will be used in the programme 
-                       # This will provide acces additional functions/modules within the module.
-                       #  From example : random.randint  and sys.exit()
+                       # This will provide access additional functions within the module.
+                       #  From example : random.randint (From the random module) and sys.exit() (From the sys module) 
 def intro():
 
     print("You are playing dice with death")
