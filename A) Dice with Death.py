@@ -35,8 +35,8 @@ def game():
         input("Good bye, press enter to quit ")
         sys.exit()         
 
-    intro()                              
-    game()
+    intro()                                   # If you write anything aisde from 'no' it will trigger the intro and game function again 
+    game()                                    # hence repeating the game.      
 
 intro()                                 # A function will need to be 'called'/invoked before it does anything, eg: intro(),game()  
 game()                                  
