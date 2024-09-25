@@ -7,7 +7,7 @@ def intro():
     print("Win and live another day, lose and your soul is doomed")
 
     input("press enter to continue")   # Allows user to 'input' info but because it is not tied to a variable 
-                                       # the info is lost. In this instance it is used as to 'pause' 
+                                       # the info is lost. In this instance it is used to 'pause' the game 
 def game():
 
     print("death rolls first")
