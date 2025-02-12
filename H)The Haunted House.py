@@ -144,11 +144,11 @@ Commands:
 ''')
         
   if 'zombie' in rooms[currentRoom]['monster']:
-      print("A zombie attack you !!!")
+      print("A zombie attacks you !!!")
       health=health-30
 
   if 'ghoul' in rooms[currentRoom]['monster']:
-      print('A ghoul attack you !!!')
+      print('A ghoul attacks you !!!')
       health=health-20
   
 
