@@ -1,4 +1,3 @@
-import turtle
 from goblin import Goblin   # Example of importing class (import all functions)
 import time 
 
@@ -144,3 +143,4 @@ main()
 
 
 ("\n\nPress the enter key to exit.") 
+
