@@ -1,7 +1,7 @@
 # 15-mini-standard-library python-games
 
 A collection of 12 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games that implement a specific python code.
-The games cover the 'basic topics' of python and some intermediate topics like OOP so you can treat this as a beginners python course too.    
+The games cover the 'basic topics' of python and some intermediate topics like OOP so you can treat this as a beginners python course too.  There are also 3 bonus games for extra learning and practice. 
 
 I have done some 'notes' to explain some of the code but if you do not understand something best thing to do is to google it. I have also added a few bonus games that doesn't fit within the collection for additional examples and reference.  
 
