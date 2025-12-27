@@ -15,7 +15,8 @@ D) Mini gamble = A simple 'Shell' game where you make bets on which pot the ston
 
 E) Battle Master= Build the optimal army to defeat the dreaded orcs. Implement the use of TRY and EXCEPT statements
 
-F) Blood Pit= Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use 'F string' and a user defined function with multiple arguments.  
+F) Blood Pit= Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use 'F string' and a user defined function with multiple arguments. It also demonstrate how we can maintain game state Without Globals or Classes but by using a 
+data structure called 'list'.
 
 G) Dungeon Hack  = an adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run. Using FOR LOOP.
 
