@@ -1,45 +1,77 @@
+hero_max_power=[20]
+hero_max_health=[300]
+hero_health=[300]        # This is a list [] with only one item
+hero_power=[20]
+turn_counter=1
+rep=[0]
 
-# with f string there is no need to change an integer into a string anymore 
+"""
 
-hero_max_power=20
-hero_max_health=300
-hero_health=300        
-hero_power=20
-turn_counter=0
-rep=0
+1)with f string there is no need to change an integer into a string anymore 
+  eg :  print( f"Totol Reputation: {rep}") 
+
+2) This also demonstrate how we can maintain game state Without Globals or Classes but by using a 
+data structure called 'list' 
+
+Remember integers can't be modified inside a function but list can be, therefore, 
+wrapping values in lists allows shared state
+
+
+Technically you can just use one list to represent each of the stats but it will confusing 
+
+hero_stats-[20,300,300,20,0]
+0= hero_max_power 1= hero_max_health  2=hero_health 3=hero_power 4=rep  etc 
+
+So the first 'enemy function' would be 
 
 def enemy(name,enemy_hp,enemy_pow):
     print(f"{name} {enemy_hp}hp {enemy_pow} power")
-    eh=enemy_hp
-    ep=enemy_pow  
-    hh= hero_health          
-    hp= hero_power         
-    while hh>0 and eh>0:
-        hh-=ep
-        eh-=hp
-        print(f"The {name} attacks you. Your health is {hh}")
-        print(f"You attack the {name}. The {name}'s health is {eh}")
+    while hero_stats[2]>0 and enemy_hp>0:
+        hero_stats[2]-=enemy_pow
+        enemy_hp-=hero_stats[3]
+        print(f"The {name} attacks you. Your health is {hero_stats[2]}")
+        print(f"You attack the {name}. The {name}'s health is {enemy_hp}")
         
-        if hh<=0:
+        if hero_stats[2]<=0:
             print("hero has been slained") 
             input("Press enter to quit")
             quit()
         
-        if eh<=0:
+        if enemy_hp<=0:
+            print("You have slained the "+name)
+            break
+
+"""
+
+def enemy(name,enemy_hp,enemy_pow):
+    print(f"{name} {enemy_hp}hp {enemy_pow} power")
+    while hero_health[0]>0 and enemy_hp>0:
+        hero_health[0]-=enemy_pow
+        enemy_hp-=hero_power[0]
+        print(f"The {name} attacks you. Your health is {hero_health[0]}")
+        print(f"You attack the {name}. The {name}'s health is {enemy_hp}")
+        
+        if hero_health[0]<=0:
+            print("hero has been slained") 
+            input("Press enter to quit")
+            quit()
+        
+        if enemy_hp<=0:
             print("You have slained the "+name)
             break
 
 def level_up(hp_increase,pow_increase,enemy,rep_points):
-     global hero_max_health, hero_max_power, hero_health, hero_power, rep
-     rep+=rep_points
-     hero_max_health+=hp_increase
-     hero_max_power+=pow_increase
-     hero_health=hero_max_health
-     hero_power=hero_max_power
+     rep[0]+=rep_points
+     hero_max_health[0]+=hp_increase
+     hero_max_power[0]+=pow_increase
+     hero_health[0] = hero_max_health[0] 
+     hero_power[0] = hero_max_power[0] 
+    
      print(f"you become stronger with every {enemy} you slay")
      print("you gain some reputation for the fight")
      print( f"Totol Reputation: {rep}")   # no need to change an integer to a string anymore 
-     
+
+        
 while True:
     print("Welcome to the blood pit, choose your opponent!! ")
     choose=input( "Please select goblin, orc, pit fighter or red dragon: ")
@@ -50,23 +82,22 @@ while True:
 
         if choose==("GOBLIN"):
             enemy("Goblin",200,20)
-            level_up(20,5,"Goblin",10)
+            level_up(30,10,"Goblin",10)
             break
             
         elif choose==("ORC"):
             enemy("Orc",400,60)
-            level_up(40,10,"Orc",50)
+            level_up(50,15,"Orc",50)
             break
         
         elif choose==("PIT FIGHTER"):
             enemy("Pit Fighter",500,200)
-            level_up(60,20,"Pit Fighter",100)
+            level_up(70,25,"Pit Fighter",100)
             break
 
         elif choose==("RED DRAGON"):
             enemy("Red Dragon",1500,400)
-            level_up(70,30,"Red Dragon",200)
-            rep+=200
+            level_up(100,30,"Red Dragon",300)
             break
             
         else:
@@ -76,11 +107,15 @@ while True:
     turn_counter+=1
     print(f"It is turn {turn_counter}")  # no need to change an integer to a string anymore 
 
-    if rep>2000:
+    if rep[0]>2500:
         print("You are the master of the blood pit")
-        print(f"You beat the game in turn {turn_counter}")
+        print(f"You beat the game on turn {turn_counter}")
         input("You win, press enter to exit")
         break 
-    
+
 #https://github.com/Ninedeadeyes/15-mini-python-games-
    
+
+
+    
+    
