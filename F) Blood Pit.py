@@ -17,7 +17,7 @@ Remember integers can't be modified inside a function but list can be, therefore
 wrapping values in lists allows shared state
 
 
-Technically you can just use one list to represent each of the stats but it will confusing 
+Technically you can just use one list to represent each of the stats but it will be confusing 
 
 hero_stats-[20,300,300,20,0]
 0= hero_max_power 1= hero_max_health  2=hero_health 3=hero_power 4=rep  etc 
@@ -119,3 +119,4 @@ while True:
 
     
     
+
