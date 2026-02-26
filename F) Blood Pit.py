@@ -8,7 +8,7 @@ rep=[0]
 """
 
 1)with f string there is no need to change an integer into a string anymore 
-  eg :  print( f"Totol Reputation: {rep}") 
+  eg :  Use print( f"Totol Reputation: {rep}") instead of print("Total Reputation: " + str(rep))
 
 2) This also demonstrate how we can maintain game state Without Globals or Classes but by using a 
 data structure called 'list' 
@@ -119,4 +119,5 @@ while True:
 
     
     
+
 
