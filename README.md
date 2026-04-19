@@ -38,20 +38,9 @@ Who Dare Wins= A tactical dice game with a high score save function. Demonstrate
 
 The Road To Eden = Make hard decisions as you make your way to the city of Eden. Demonstrate how to open and read multiple lines/elements within a txt.file.
 
-If you want to 'expand' your learning. I would recommend the below github projects. I have listed from easiest to hardest. Enjoy 
+If you want to 'expand' your learning. I would recommend using the below 2d Ascii RPG game engine to create your own mini adventures 
 
-
-https://github.com/Ninedeadeyes/Dungeon-of-the-Black-Dragon         ( A 2d Ascii adventure/dungeon crawler game) 
-
-https://github.com/Ninedeadeyes/Tank-Battle-At-Ghost-Forest         ( A shootem up with 2 player options written with Turtle library ) 
-
-https://github.com/Ninedeadeyes/A-Grots-Life-2                      ( A survival/crafting game wrttien with Tkinter Library ) 
-
-https://github.com/Ninedeadeyes/Quest-for-the-Golden-Turtle         ( A hack and slash dungeon crawler written with Turtle library, There is a mod version here demonistrating player movement animation called Pac-Man vs The Goblins of Doom) 
-
-https://github.com/Ninedeadeyes/7-Dungeons-Deep                     ( An action rpg written with Turtle Library  ) 
-
-https://github.com/Ninedeadeyes/GrimLore-Land-of-the-Heretic-Hand  ( A 2d Ascii open world rpg) 
+https://github.com/Ninedeadeyes/Spark-Standard-Python-Adventure-RPG-Kit-/
 
 
 Youtube Video 
