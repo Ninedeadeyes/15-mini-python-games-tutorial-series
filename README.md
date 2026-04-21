@@ -40,6 +40,12 @@ The Road To Eden = Make hard decisions as you make your way to the city of Eden.
 
 If you want to 'expand' your learning. I would recommend using the below 2d Ascii RPG game engine to create your own mini adventures 
 
+The Engine provides an example of 'Type Hints' and 'Doc string' 
+
+Type hints in Python are annotations that tell you (and your tools) what types a function expects and what it returns, without affecting how the code runs. 
+
+A docstring (documentation string) is a triple‑quoted string written directly under a function, class, or module definition. Docstrings provide human‑readable explanations of what code does.
+
 https://github.com/Ninedeadeyes/Spark-Standard-Python-Adventure-RPG-Kit-/
 
 
