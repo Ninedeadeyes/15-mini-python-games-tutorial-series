@@ -19,7 +19,7 @@ G	Dungeon Hack	                     for Loops & Iterating over Collections
 
 H	The Haunted House                    Dictionaries & Building Map Systems
 
-E	Battle Master (Moved here!)	     Error Handling & Input Validation (try/except)
+E	Battle Master           	     Error Handling & Input Validation (try/except)
 
 I	A Grot's Life (A, B, C)	             Object-Oriented Programming (Classes) & Modules
         
