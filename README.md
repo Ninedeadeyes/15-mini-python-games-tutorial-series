@@ -5,21 +5,21 @@
 
 Instead of working through all 15 games, you can cover all the programming fundamentals by focusing on these 8 core projects in the below order."
 
-A	 Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions, VARIABLES and IF STATEMENTS  
+A)	 Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions, VARIABLES and IF STATEMENTS  
 
-B	 Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, VARIABLES, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
+B)	 Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, VARIABLES, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
 
-C	The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
+C)	The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
 
-E	Blood Pit=  Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use 'F string' and a user defined function with multiple arguments.
+E)	Blood Pit=  Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use 'F string' and a user defined function with multiple arguments.
 
-G	Dungeon Hack = an adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run. Using FOR LOOP.
+G)	Dungeon Hack = an adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run. Using FOR LOOP.
 
-H	The Haunted House = A mini adventure game. Your main goal is to escape the house with the loot. Using NESTED DICTIONARY data type. 
+H)	The Haunted House = A mini adventure game. Your main goal is to escape the house with the loot. Using NESTED DICTIONARY data type. 
 
-E	Battle Master = Build the optimal army to defeat the dreaded orcs. Implement the use of TRY and EXCEPT statements
+E)	Battle Master = Build the optimal army to defeat the dreaded orcs. Implement the use of TRY and EXCEPT statements
 
-I	A Grot's Life (A, B, C)	 = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version (A) implements Object oriented and procedural programming whilst Version (B) also implements 'IMPORT' transfering functions/class/lists from USER DEFINED modules (MODULARITY)  which helps organise large code base. Version (C) Provides steps to transform it to a more 'complete' object oriented programme. 
+I)	A Grot's Life (A, B, C)	 = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version (A) implements Object oriented and procedural programming whilst Version (B) also implements 'IMPORT' transfering functions/class/lists from USER DEFINED modules (MODULARITY)  which helps organise large code base. Version (C) Provides steps to transform it to a more 'complete' object oriented programme. 
         
 </details>
 
