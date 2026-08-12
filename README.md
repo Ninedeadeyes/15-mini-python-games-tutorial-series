@@ -3,7 +3,7 @@
 <details> 
 <summary><strong> Skip the fluff </strong></summary>
 
-Instead of working through all 15 games, you can cover all the programming fundamentals by focusing on these 8 core projects in the below order."
+Instead of working through all 15 games, you can cover all the programming fundamentals by focusing on these 10 core projects in the below order."
 
 A)	 Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions, VARIABLES and IF STATEMENTS  
 
@@ -17,7 +17,11 @@ G)	Dungeon Hack = an adventure simulation game. You need to pick a band of adven
 
 H)	The Haunted House = A mini adventure game. Your main goal is to escape the house with the loot. Using NESTED DICTIONARY data type. 
 
+J)      The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY,NESTED DICTIONARY and RETURN function. 
+
 E)	Battle Master = Build the optimal army to defeat the dreaded orcs. Implement the use of TRY and EXCEPT statements
+
+bonus) Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
 
 I)	A Grot's Life (A, B, C)	 = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version (A) implements Object oriented and procedural programming whilst Version (B) also implements 'IMPORT' transfering functions/class/lists from USER DEFINED modules (MODULARITY)  which helps organise large code base. Version (C) Provides steps to transform it to a more 'complete' object oriented programme. 
         
