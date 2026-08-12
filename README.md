@@ -1,17 +1,26 @@
 # 15-mini-standard-library python-games
 
+<details> 
 <summary><strong> 2026 recommendations</strong></summary>
 
 Instead of working through all 15 games, you can cover all the programming fundamentals by focusing on these 8 core projects in the below order."
 
 Num	Game	                             Core Concept Learned
+
 A	Dice with Death	Variables,           Print Statements & Basic Functions
+
 B	Hacker	                             while Loops & Main Game Loops
+
 C	The Lord, The Hunter & The Fox	     Lists & Conditional Logic (if/elif/else)
+
 E	Blood Pit	                     Functions with Arguments & State Management
+
 G	Dungeon Hack	                     for Loops & Iterating over Collections
+
 H	The Haunted House                    Dictionaries & Building Map Systems
+
 E	Battle Master (Moved here!)	     Error Handling & Input Validation (try/except)
+
 I	A Grot's Life (A, B, C)	             Object-Oriented Programming (Classes) & Modules
         
 </details>
