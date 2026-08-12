@@ -73,7 +73,7 @@ The Road To Eden = Make hard decisions as you make your way to the city of Eden.
 </details>
 
 <details> 
-<summary><strong> End game</strong></summary>
+<summary><strong> Endgame</strong></summary>
 
 If you want to 'expand' your learning. I would recommend using the below 2d Ascii RPG game engine to create your own mini adventures 
 
