@@ -1,7 +1,7 @@
 # 15-mini-standard-library python-games
 
 <details> 
-<summary><strong> 2026 recommendations</strong></summary>
+<summary><strong> Skip the fluff !! </strong></summary>
 
 Instead of working through all 15 games, you can cover all the programming fundamentals by focusing on these 8 core projects in the below order."
 
@@ -19,12 +19,14 @@ G	Dungeon Hack	                     for Loops & Iterating over Collections
 
 H	The Haunted House                    Dictionaries & Building Map Systems
 
-E	Battle Master (Moved here!)	     Error Handling & Input Validation (try/except)
+E	Battle Master           	     Error Handling & Input Validation (try/except)
 
 I	A Grot's Life (A, B, C)	             Object-Oriented Programming (Classes) & Modules
         
 </details>
 
+<details> 
+<summary><strong> Original </strong></summary>
 
 A collection of 12 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games that implement a specific python code.
 The games cover the 'basic topics' of python and some intermediate topics like OOP so you can treat this as a beginners python course too.  There are also 3 bonus games for extra learning and practice. 
@@ -63,6 +65,9 @@ The King's Curse = A simple text based adventure using Ascii graphics taken from
 Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
 
 The Road To Eden = Make hard decisions as you make your way to the city of Eden. Demonstrate how to open and read multiple lines/elements within a txt.file.
+
+</details>
+
 
 If you want to 'expand' your learning. I would recommend using the below 2d Ascii RPG game engine to create your own mini adventures 
 
