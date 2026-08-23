@@ -26,6 +26,8 @@ I)	A Grot's Life (A, B, C)	 = A Survival crafting Game written in standard libra
 Bonus game: 
 
 Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
+
+Once you have gone through all 10 games and understood the code, you will have a strong foundation to specialize and start using external tools like libraries and game engines to further your learning. I will likely only cover the other 5 games and the "endgame task" if you feel you need more practice with the standard library.
         
 </details>
 
