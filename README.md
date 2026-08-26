@@ -4,15 +4,17 @@
 
 These are the subjects this tutorial covers 
 
-Basic Syntax, Input & Output : PRINT, INPUT, F-string, Variable, Functions  
+1) Basic Syntax, Input & Output : PRINT, INPUT, F-string, Variable, Functions  
 
-Control Flow & Loops : If Elif and else statement, while loop, For loop
+2) nControl Flow & Loops : If Elif and else statement, while loop, For loop
 
-Basic Data Structures : List, Dictionary, Nested Dictionary 
+3) Basic Data Structures : List, Dictionary, Nested Dictionary 
 
-Error Handling : Try and Except Statement
+4) Error Handling : Try and Except Statement
 
-Object-Oriented Programming (OOP) & Modularity : Class and Import statement 
+5) Object-Oriented Programming (OOP) & Modularity : Class and Import statement
+
+Once you have gone through all 10 games and understood the code, you will have a strong foundation to specialize and start using external tools like libraries and game engines to further your learning. I will likely only cover the other 5 games and the "endgame task" if you feel you need more practice with the standard library.
 
 </details>
 
@@ -38,10 +40,6 @@ Object-Oriented Programming (OOP) & Modularity : Class and Import statement
 09) Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
 
 10)	A Grot's Life (A, B, C)	 = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version (A) Introduce  Class and Objects whilst Version (B) Provides steps to transform it to a more 'complete' object oriented programme. Version (C) implements 'IMPORT' transfering functions/class/lists to USER DEFINED modules (MODULARITY)  which helps organise large code base
-
-<strong> Conclusion </strong>
-
-Once you have gone through all 10 games and understood the code, you will have a strong foundation to specialize and start using external tools like libraries and game engines to further your learning. I will likely only cover the other 5 games and the "endgame task" if you feel you need more practice with the standard library.
 
 </details>
 
