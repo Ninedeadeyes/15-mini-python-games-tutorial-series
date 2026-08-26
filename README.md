@@ -14,7 +14,7 @@ These are the subjects this tutorial covers
 
 5) Object-Oriented Programming (OOP) & Modularity : Class and Import statement
 
-Once you have gone through all 10 games and understood the code, you will have a strong foundation to specialize and start using external tools like libraries and game engines to further your learning. I will likely only cover the other 5 games and the "endgame task" if you feel you need more practice with the standard library.
+Games are built on the concepts taught in previous games, so beginners are strongly recommended to complete Games 1 through 10 in sequential order. Once you have gone through all 10 games and understood the code, you will have a strong foundation to specialize and start using external tools like libraries and game engines to further your learning. I will only cover the other 5 bonus games and the "endgame task" if you feel you need more practice within the standard library.  
 
 </details>
 
