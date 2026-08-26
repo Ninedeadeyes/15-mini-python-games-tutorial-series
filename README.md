@@ -37,7 +37,7 @@ Once you have gone through all 10 games and understood the code, you will have a
  
 08)	Battle Master = Build the optimal army to defeat the dreaded orcs. Implement the use of TRY and EXCEPT statements
 
-09) Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
+09) Who Dare Win= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
 
 10)	A Grot's Life (A, B, C)	 = A Survival crafting Game written in standard library where you play as a grot doing what a grot does. Version (A) Introduces  Class and Objects whilst Version (B) Provides steps to transform it to a more 'complete' object oriented programme. Version (C) implements 'IMPORT' transferring functions/class/lists to USER DEFINED modules (MODULARITY)  which helps organise large code base
 
