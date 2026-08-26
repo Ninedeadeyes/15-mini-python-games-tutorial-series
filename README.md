@@ -21,6 +21,8 @@ Games are built on the concepts taught in previous games, so beginners are stron
 <details> 
 <summary><strong> Game Guide </strong></summary>
 
+If you do not undestand the code or a specific concept, you can research it on the internet or ask AI. Once you understand the code, add additional features to the game to make it your own. 
+
 01)	Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, BUILT IN functions, VARIABLES and IF STATEMENTS  
 
 02)	Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provides. Implement the use of INPUT function, VARIABLES, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
