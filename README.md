@@ -1,7 +1,6 @@
 # 15-mini-standard-library python-games
-
 <details> 
-<summary><strong> Guide </strong></summary>
+<summary><strong> Introduction </strong></summary>
 
 These are the subjects this tutorial covers 
 
@@ -15,6 +14,10 @@ Error Handling : Try and Except Statement
 
 Object-Oriented Programming (OOP) & Modularity : Class and Import statement 
 
+</details>
+
+<details> 
+<summary><strong> Game Guide </strong></summary>
 
 01)	Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions, VARIABLES and IF STATEMENTS  
 
