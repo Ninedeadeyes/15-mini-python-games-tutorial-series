@@ -3,6 +3,18 @@
 <details> 
 <summary><strong> Guide </strong></summary>
 
+These are the subjects this tutorial covers 
+
+Basic Syntax, Input & Output : PRINT, INPUT, F-string, Variable, Functions  
+
+Control Flow & Loops : If Elif and else statement, while loop, For loop
+
+Basic Data Structures : List, Dictionary, Nested Dictionary 
+
+Error Handling : Try and Except Statement
+
+Object-Oriented Programming (OOP) & Modularity : Class and Import statement 
+
 
 01)	Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions, VARIABLES and IF STATEMENTS  
 
