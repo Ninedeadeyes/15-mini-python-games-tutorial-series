@@ -1,12 +1,12 @@
 # 15-mini-standard-library python-games
 
 <details> 
-<summary><strong> Skip the fluff </strong></summary>
+<summary><strong> Guide </strong></summary>
 
 
-01)	 Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions, VARIABLES and IF STATEMENTS  
+01)	Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions, VARIABLES and IF STATEMENTS  
 
-02)	 Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, VARIABLES, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
+02)	Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, VARIABLES, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
 
 03)	The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
 
@@ -14,17 +14,17 @@
 
 05)	The Haunted House = A mini adventure game. Your main goal is to escape the house with the loot. Using NESTED DICTIONARY data type.
    
-06)     The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY,NESTED DICTIONARY and RETURN function.
+06)  The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY,NESTED DICTIONARY and RETURN function.
 
 07)	Blood Pit=  Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use 'F string' and a user defined function with multiple arguments.
  
 08)	Battle Master = Build the optimal army to defeat the dreaded orcs. Implement the use of TRY and EXCEPT statements
 
-09)     Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
+09) Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
 
 10)	A Grot's Life (A, B, C)	 = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version (A) Introduce  Class and Objects whilst Version (B) Provides steps to transform it to a more 'complete' object oriented programme. Version (C) implements 'IMPORT' transfering functions/class/lists from USER DEFINED modules (MODULARITY)  which helps organise large code base
 
-<summary><strong> Conclusion </strong> </summary> 
+<strong> Conclusion </strong>
 
 Once you have gone through all 10 games and understood the code, you will have a strong foundation to specialize and start using external tools like libraries and game engines to further your learning. I will likely only cover the other 5 games and the "endgame task" if you feel you need more practice with the standard library.
 
@@ -50,9 +50,13 @@ https://github.com/Ninedeadeyes/Spark-Standard-Python-Adventure-RPG-Kit-/
 <summary><strong> Bonus Games </strong></summary>
 
 Mini gamble = A simple 'Shell' game where you make bets on which pot the stone is under. Implement INT function converting 'string' to integer. 
+
 The Road To Eden = Make hard decisions as you make your way to the city of Eden. Demonstrate how to open and read multiple lines/elements within a txt.file.
+
 The King's Curse = A simple text based adventure using Ascii graphics taken from  https://www.asciiart.eu/
+
 One Click RPG= An Idle RPG. Using TUPLES data type, Using TKINTER GUI library ( part of the standard library )
+
 Space Rescue = Rescue the red ships and avoid the rocks. Using TURTLE GRAPHICS library ( part of the standard library )
 
 </details>
