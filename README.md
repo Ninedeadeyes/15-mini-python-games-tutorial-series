@@ -3,82 +3,33 @@
 <details> 
 <summary><strong> Skip the fluff </strong></summary>
 
-Instead of working through all 15 games, you can cover all the programming fundamentals by focusing on these 10 core projects in the below order."
 
-A)	 Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions, VARIABLES and IF STATEMENTS  
+01)	 Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions, VARIABLES and IF STATEMENTS  
 
-B)	 Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, VARIABLES, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
+02)	 Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, VARIABLES, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
 
-C)	The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
+03)	The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
 
-E)	Blood Pit=  Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use 'F string' and a user defined function with multiple arguments.
+04)	Dungeon Hack = an adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run. Using FOR LOOP.
 
-G)	Dungeon Hack = an adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run. Using FOR LOOP.
+05)	The Haunted House = A mini adventure game. Your main goal is to escape the house with the loot. Using NESTED DICTIONARY data type.
+   
+06)     The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY,NESTED DICTIONARY and RETURN function.
 
-H)	The Haunted House = A mini adventure game. Your main goal is to escape the house with the loot. Using NESTED DICTIONARY data type. 
+07)	Blood Pit=  Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use 'F string' and a user defined function with multiple arguments.
+ 
+08)	Battle Master = Build the optimal army to defeat the dreaded orcs. Implement the use of TRY and EXCEPT statements
 
-J)      The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY,NESTED DICTIONARY and RETURN function. 
+09)     Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
 
-E)	Battle Master = Build the optimal army to defeat the dreaded orcs. Implement the use of TRY and EXCEPT statements
+10)	A Grot's Life (A, B, C)	 = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version (A) Introduce  Class and Objects whilst Version (B) Provides steps to transform it to a more 'complete' object oriented programme. Version (C) implements 'IMPORT' transfering functions/class/lists from USER DEFINED modules (MODULARITY)  which helps organise large code base
 
-I)	A Grot's Life (A, B, C)	 = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version (A) implements Object oriented and procedural programming whilst Version (B) also implements 'IMPORT' transfering functions/class/lists from USER DEFINED modules (MODULARITY)  which helps organise large code base. Version (C) Provides steps to transform it to a more 'complete' object oriented programme. 
-
-Bonus game: 
-
-Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
-
-
-<details> 
 <summary><strong> Conclusion </strong> </summary> 
 
 Once you have gone through all 10 games and understood the code, you will have a strong foundation to specialize and start using external tools like libraries and game engines to further your learning. I will likely only cover the other 5 games and the "endgame task" if you feel you need more practice with the standard library.
 
 </details>
-        
-</details>
 
-<details> 
-<summary><strong> Original</strong></summary>
-
-A collection of 12 mini games created with standard library that scales in complexity. Good for beginners looking for examples of games that implement a specific python code.
-The games cover the 'basic topics' of python and some intermediate topics like OOP so you can treat this as a beginners python course too.  There are also 3 bonus games for extra learning and practice. 
-
-I have done some 'notes' to explain some of the code but if you do not understand something best thing to do is to google it. I have also added a few bonus games that doesn't fit within the collection for additional examples and reference.  
-
-A) Dice with Death = Simple dice game with death, you win you live. You lose, your soul is his. This is a very basic game using USER-DEFINED, IN BUILT functions, VARIABLES and IF STATEMENTS  
-
-B) Hacker= Goal of the game is to hack into Robert's account. The more attempts, the more clues it provide. Implement the use of INPUT function, VARIABLES, WHILE loop, BREAK statement and IF ELSE STATEMENTS.
-
-C) The lord, the hunter and the fox= alternative to Rock,Paper,Scissors. Using LIST data type and IF,ELIF and ELSE STATEMENTS.
-
-D) Mini gamble = A simple 'Shell' game where you make bets on which pot the stone is under. Implement INT function converting 'string' to integer. 
-
-E) Battle Master= Build the optimal army to defeat the dreaded orcs. Implement the use of TRY and EXCEPT statements
-
-F) Blood Pit= Fight a selection of monsters in the blood pit to gain reputation and glory. Demonstrate how to use 'F string' and a user defined function with multiple arguments. It also demonstrate how we can maintain game state Without Globals or Classes but by using a 
-data structure called 'list'.
-
-G) Dungeon Hack  = an adventure simulation game. You need to pick a band of adventurers and complete a dungeon run. Depending on the combination of adventurers it will dictate the outcome of the dungeon run. Using FOR LOOP.
-
-H) The Haunted House= A mini adventure game. Your main goal is to escape the house with the loot. Using NESTED DICTIONARY data type. 
-
-I) A Grot's Life = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version (A) implements Object oriented and procedural programming whilst Version (B) also implements 'IMPORT' transfering functions/class/lists from USER DEFINED modules (MODULARITY)  which helps organise large code base. Version (C) Provides steps to transform it to a more 'complete' object oriented programme. 
-
-J) The Slumber of the Doom King= Break into the Doom King's castle and steal as much gold as possible and find an escape before the king consumes your soul. Using DICTIONARY,NESTED DICTIONARY and RETURN function. 
-
-K) One Click RPG= An Idle RPG. Using TUPLES data type, Using TKINTER GUI library ( part of the standard library )
-
-L) Space Rescue = Rescue the red ships and avoid the rocks. Using TURTLE GRAPHICS library ( part of the standard library )
-
-Bonus games 
-
-The King's Curse = A simple text based adventure using Ascii graphics taken from  https://www.asciiart.eu/
-
-Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
-
-The Road To Eden = Make hard decisions as you make your way to the city of Eden. Demonstrate how to open and read multiple lines/elements within a txt.file.
-
-</details>
 
 <details> 
 <summary><strong> Endgame</strong></summary>
@@ -95,7 +46,20 @@ https://github.com/Ninedeadeyes/Spark-Standard-Python-Adventure-RPG-Kit-/
 
 </details>
 
+<details> 
+<summary><strong> Bonus Games </strong></summary>
+
+Mini gamble = A simple 'Shell' game where you make bets on which pot the stone is under. Implement INT function converting 'string' to integer. 
+The Road To Eden = Make hard decisions as you make your way to the city of Eden. Demonstrate how to open and read multiple lines/elements within a txt.file.
+The King's Curse = A simple text based adventure using Ascii graphics taken from  https://www.asciiart.eu/
+One Click RPG= An Idle RPG. Using TUPLES data type, Using TKINTER GUI library ( part of the standard library )
+Space Rescue = Rescue the red ships and avoid the rocks. Using TURTLE GRAPHICS library ( part of the standard library )
+
+</details>
+
 Youtube Video 
 
 https://www.youtube.com/watch?v=ike4KGsFM2Y
+
+
         
