@@ -22,7 +22,7 @@
 
 09) Who Dare Wins= A tactical dice game with a high score save function. Demonstrate how to OPEN/READ/WRITE TXT.FILES as well as an example of 'clear screen' function.  
 
-10)	A Grot's Life (A, B, C)	 = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version (A) Introduce  Class and Objects whilst Version (B) Provides steps to transform it to a more 'complete' object oriented programme. Version (C) implements 'IMPORT' transfering functions/class/lists from USER DEFINED modules (MODULARITY)  which helps organise large code base
+10)	A Grot's Life (A, B, C)	 = A Survival crafting Game written in standard library where you play as a grot doing what a grot do. Version (A) Introduce  Class and Objects whilst Version (B) Provides steps to transform it to a more 'complete' object oriented programme. Version (C) implements 'IMPORT' transfering functions/class/lists to USER DEFINED modules (MODULARITY)  which helps organise large code base
 
 <strong> Conclusion </strong>
 
