@@ -18,8 +18,8 @@ class Application(Frame):                          #Frame is a previously define
         self.monster=["orcs","goblins","dragons","demons","kobolds","blobs","hobbits","zombies","gnomes","vampires","beholders","trolls","hill giants","ettins","mimics",
                       "succubuses","bone devils","clay golems","drows","gnolls","swamp hags"," night goblins","half-ogres","hobgoblins","bog imps","owlbears","ponies","winter wolves","harlequin","abomination"]
         
-        self.description=["stupid","horny","heart broken","deranged","morbid","tiny","suicidal","sexy","skinny","racist","peaceful","silly","drunk","sadistic","young", "shy","talkative",
-                          "lovestruck","sarcastic","homophobic","forelorn","happy","friendly","psychopathic","optimistic","mysterious","beautiful","malnourish","zealous","hot-headed"]
+        self.description=["stupid","heart broken","deranged","morbid","tiny","skinny","racist","peaceful","silly","drunk","sadistic","young", "shy","talkative",
+                          "lovestruck","sarcastic","forelorn","happy","friendly","psychopathic","optimistic","mysterious","beautiful","malnourish","zealous","hot-headed"]
 
         self.power_ranking=("The Village Punchbag (It's a job, i guess )")
         
