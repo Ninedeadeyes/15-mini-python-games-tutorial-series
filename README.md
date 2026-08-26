@@ -6,7 +6,7 @@ These are the subjects this tutorial covers
 
 1) Basic Syntax, Input & Output : PRINT, INPUT, F-string, Variable, Functions  
 
-2) nControl Flow & Loops : If Elif and else statement, while loop, For loop
+2) Control Flow & Loops : If Elif and else statement, while loop, For loop
 
 3) Basic Data Structures : List, Dictionary, Nested Dictionary 
 
