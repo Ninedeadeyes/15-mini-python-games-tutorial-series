@@ -2,7 +2,7 @@
 <details> 
 <summary><strong> Introduction </strong></summary>
 
-These are the subjects this tutorial covers 
+This project aims to gamify learning Python fundamentals through hands-on game development. These are the subjects this tutorial covers 
 
 1) Basic Syntax, Input & Output : PRINT, INPUT, F-string, Variable, Functions  
 
