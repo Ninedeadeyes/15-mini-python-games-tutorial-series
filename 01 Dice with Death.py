@@ -3,8 +3,6 @@
 #Simple dice game with death, you win you live. You lose, your soul is his. 
 #This is a very basic game using USER-DEFINED, IN BUILT functions, VARIABLES and IF STATEMENTS
 
-
-
 import random, sys     # This 'import' the random and sys module which will be used in the programme 
                        # This will provide access additional functions within the module.
                        #  From example : random.randint (From the random module) and sys.exit() (From the sys module) 
@@ -25,7 +23,7 @@ def game():
     print("you roll",your_roll)
     input("press enter to continue")
 
-    while death_roll == your_roll:
+    if death_roll == your_roll:
         print("you will need to play again")
         game()
 
@@ -35,18 +33,22 @@ def game():
     if your_roll>death_roll:
         print("You win and live another day")
 
-    play_again = input("Play again? (yes/no)")
+    play_again = input("Play again? (yes/no) : ")
     play_again= play_again.lower()
 
     if play_again =="no":                               # Simple example of if statement.  If you type in 'no' it will quit the game
         input("Good bye, press enter to quit ")
         sys.exit()         
 
-    intro()                                   # If you write anything aisde from 'no' it will trigger the intro and game function again 
-    game()                                    # hence repeating the game.      
+    intro()                                   # If you write anything aside from 'no' it will trigger the intro and game function again 
+    game()                                    # hence repeating the game *      
+                                              # Calling game() inside game() to repeat the game relies on RECURSION. This is consider an anti-pattern because 
+                                              # every game stack accumulates in memory, which can eventually crash Python.
+                                              # In later tutorial we can replace this with a 'while loop' 
 
 intro()                                 # A function will need to be 'called'/invoked before it does anything, eg: intro(),game()  
 game()                                  
+
 
 #Variables 
 
