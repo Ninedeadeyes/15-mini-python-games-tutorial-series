@@ -97,7 +97,7 @@ def game():
                 print ("Your party stats are : power=",power, "scout=",scout,"magic=",magic)
 
         print("Game over")
-        play=input("play again Y/N ? : ").lower
+        play=input("play again Y/N ? : ").lower()
         if play == "y":
             pass
         else:
